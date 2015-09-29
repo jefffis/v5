@@ -51,7 +51,7 @@ module.exports= function(grunt){
 	grunt.loadNpmTasks('grunt-yui-compressor');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('w',['watch']);
+	// grunt.registerTask('w',['watch']);
 
 	//grunt.registerTask('default', ['sass','min','cssmin']);
 
