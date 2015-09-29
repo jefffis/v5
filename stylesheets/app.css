@@ -24,6 +24,30 @@ h1, h2, h3, h4, p {
 	font-weight : normal;
 }
 
+#updates {
+	background : #FCFCDC;
+	padding : 1rem;
+	color : #4a3e42;
+	text-align : center;
+}
+#updates p {
+	margin-bottom : 0;
+	font-size : 1.35rem;
+}
+#updates a {
+	color : #4a3e42;
+}
+#updates a:active {
+	opacity : .5;
+}
+#updates span {
+	position : relative;
+	top : .35rem;
+	left : -.25rem;
+	font-size : 2rem;
+	line-height : 0; 
+}
+
 /************
 header
 ************/
@@ -90,6 +114,9 @@ work
 	text-align : right;
 	margin-top : 2em;
 }
+[sig] strong {
+	font-size : 2rem;
+}
 [works] .mantra {
 	margin : 2em auto;
 	border-left : 5px solid rgba(255,255,255,0.25);
@@ -105,7 +132,7 @@ work
 	/*border : 2px solid rgba(0,0,0,0.05);*/
 	background : rgba(0,0,0,0.25);
 	/*box-shadow : 0 0 0 2px rgba(255,255,255,0.15);*/
-	text-decoration : none;
+	/*text-decoration : none;*/
 	color : white;
 }
 [works] [not-yet], [works] [not-yet]:active {
@@ -122,7 +149,7 @@ work
 	border : 0;
 	background : none;
 	border-radius : 0;
-	border-bottom : 2px solid yellow;
+	/*border-bottom : 2px solid yellow;*/
 }
 [works] a:active {
 	background : rgba(0,0,0,0.1);
@@ -324,7 +351,7 @@ article h3 {
 }
 [tradesy] .lg {
 	max-width : 474px;
-	padding : 0 0 .5rem;
+	padding : 0 0 .5rem 1.5rem;
 	/*border-bottom : 2px solid rgba(0, 0, 0, 0.15);*/
 	font-size : 1.5rem;
 	color : white;
@@ -384,6 +411,10 @@ article h3 {
 }
 [tradesy] img + img {
 	margin : 0 0 0 1.5rem;
+}
+
+[tradesy] .lg {
+	padding-left : 0;
 }
 
 }
