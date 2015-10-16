@@ -147,6 +147,19 @@ work
 	/*text-decoration : none;*/
 	color : white;
 }
+[works] small {
+	display : block;
+	margin-top : 3rem;
+}
+[works] small a {
+	display : inline;
+	background : none;
+	padding : 0;
+	opacity : .75;
+}
+[works] small a:active {
+	background : none;
+}
 [works] [not-yet], [works] [not-yet]:active {
 	background : none;
 	box-shadow : none;
