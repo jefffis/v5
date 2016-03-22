@@ -448,6 +448,10 @@ article h3 {
 
 @media screen and (max-width : 500px){
 
+[works] h1 {
+	line-height : 1.25;
+}
+
 [listeninto] h1:before, [dads] h1:before {
 	content : "Pjct : ";
 }
@@ -459,6 +463,14 @@ article h3 {
 }
 article h2, [resume] h2 {
 	font-size : 22px;
+}
+
+[works] small {
+	padding : 0 1.85rem;
+	font-size : 14px;
+}
+[works] small a {
+	margin : 0;
 }
 
 }
