@@ -6,5 +6,23 @@
     <body>
         <iframe src="twitter://" width="0" height="0"></iframe>
         <p>The Twitter App is not installed</p>
+
+		<script>
+			(function() {
+				var app = {
+				launchApp: function() {
+				  window.location.replace("twitter://");
+				  this.timer = setTimeout(this.openWebApp, 1000);
+				},
+
+				openWebApp: function() {
+				  window.location.replace("https://itunes.apple.com/us/");
+				}
+				};
+
+				app.launchApp();
+			})();
+		</script>
+
     </body>
 </html>
