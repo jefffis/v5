@@ -208,6 +208,27 @@ work
 [dads] {
 	background : #9de0ad;
 }
+[yak] {
+	background: #fcf53c; /* Old browsers */
+	background : -moz-linear-gradient(left, #fcf53c 0%, #fdd800 100%); /* FF3.6-15 */
+	background : -webkit-linear-gradient(left, #fcf53c 0%,#fdd800 100%); /* Chrome10-25,Safari5.1-6 */
+	background : linear-gradient(to right, #fcf53c 0%,#fdd800 100%);
+}
+[yak] h1:before {
+	content : "App: ";
+}
+[yak] h1, [yak] p, [yak] strong {
+	color : #262222;
+}
+[yak] img {
+	max-width : 350px;
+	/*box-shadow : none !important;
+	border : 0 !important;*/
+	border-radius : 16% !important;
+}
+[yak] p {
+	max-width : 350px;
+}
 /*[dads] img {
 	background : #9de0ad;
 }*/
@@ -471,6 +492,10 @@ article h2, [resume] h2 {
 }
 [works] small a {
 	margin : 0;
+}
+
+[yak] img {
+	max-width : 100%;
 }
 
 }
