@@ -210,9 +210,9 @@ work
 }
 [yak] {
 	background: #fcf53c; /* Old browsers */
-	background : -moz-linear-gradient(left, #fcf53c 0%, #fdd800 100%); /* FF3.6-15 */
-	background : -webkit-linear-gradient(left, #fcf53c 0%,#fdd800 100%); /* Chrome10-25,Safari5.1-6 */
-	background : linear-gradient(to right, #fcf53c 0%,#fdd800 100%);
+	background : -moz-linear-gradient(left, #fcf53c 0%, #FDC200 100%);
+	background : -webkit-linear-gradient(left, #fcf53c 0%,#FDC200 100%);
+	background : linear-gradient(to right, #fcf53c 0%,#FDC200 100%);
 }
 [yak] h1:before {
 	content : "App: ";
