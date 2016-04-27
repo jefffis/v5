@@ -294,14 +294,47 @@ article small {
 	border-left : 2px solid #ddd;
 }
 article a {
+	position : relative;
+	border-bottom : 1px solid #F2C1B3;
 	color : #f35124;
+	text-decoration : none;
 }
+/*article a:after {
+	display : block;
+	opacity : .65;
+	position : absolute;
+	top : 100%;
+	left : -.25%;
+	z-index : 0;
+	height : 1px;
+	width : 100.5%;
+	background : currentColor;
+	margin-top : -2px;
+	content : "";
+}*/
 article a:active {
 	opacity : .75;
-	text-decoration : none;
+	/*text-decoration : none;*/
 }
 article h3 {
 	display : none;
+}
+article p {
+	position : relative;
+	margin-top : 1rem;
+	padding-left : 1rem;
+	/*border-left : 2px solid #ddd;*/
+}
+article p:before {
+	display : block;
+	opacity : .25;
+	position : absolute;
+	top : 2%;
+	left : 0;
+	height : 96%;
+	width : 2px;
+	background : currentColor;
+	content : "";
 }
 
 /*** resume ***/
@@ -341,8 +374,15 @@ article h3 {
 	font-weight : normal;
 }
 [resume] ul {
-	padding : 1em 0 0;
+	margin-top : 1.5rem;
+	padding : 0 0 0 1rem;
+	border-left : 2px solid #ddd;
 }
+/*[resume] ul:before {
+	display : block;
+	padding-bottom : 1rem;
+	content : "Some of my skills to pay those bills:";
+}*/
 [resume] li {
 	color : #999;
 	line-height : 1.25;
