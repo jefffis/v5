@@ -658,16 +658,15 @@
 
 		<script src="js/echo.js"></script>
 		<script>
-			setTimeout(function() {
-				echo.init({
-					offset: 100,
-					throttle: 250,
-					unload: false,
-					callback: function (element, op) {
-						element.parentNode.classList = 'loaded';
-					}
-				});
-			}, 1000); // so the UI doesn't change too quickly for user to really know what happened
+			echo.init({
+				offset: 100,
+				throttle: 250,
+				unload: false,
+				callback: function (element, op) {
+					element.parentNode.classList = 'loaded';
+					// console.log(element, 'has been', op + 'ed');
+				}
+			});
 		</script>
 
     </body>
