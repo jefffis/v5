@@ -99,6 +99,10 @@ work
 	content : 'Mobile Web: ';
 	opacity : .35;
 }
+[works] [coming-soon] h1:before {
+	/*content : 'Coming Soon: ';*/
+	display : none;
+}
 [email] h1:before {
 	content : 'Email: ';
 }
@@ -268,6 +272,33 @@ work
 }
 [yesno] {
 	background : #040407;
+}
+
+[coming-soon] {
+	color : #040407;
+}
+[coming-soon] figure {
+	display : inline-block;
+}
+[coming-soon] figcaption {
+	color : #999;
+}
+[coming-soon] strong {
+	display : block;
+	color : #040407;
+}
+[coming-soon] a {
+	/*display : block;*/
+	background : none;
+	margin-top : 15px !important;
+	padding : 0;
+	border-radius : 0;
+	color : #f04f23;
+}
+[coming-soon] a:active {
+	opacity : .65;
+	background: none;
+	color : #f04f23;
 }
 
 [thoughts] {
@@ -499,6 +530,10 @@ article p:before {
 
 [imgs] img, [imgs] img + img {
 	margin : 1rem;
+}
+
+[coming-soon] img, [coming-soon] img + img {
+	margin : 1rem 0;
 }
 
 [works] .lg {
