@@ -658,16 +658,14 @@
 
 		<script src="js/echo.js"></script>
 		<script>
-			setTimeout(function() {
-				echo.init({
-					offset: 100,
-					throttle: 250,
-					unload: false,
-					callback: function (element, op) {
-						element.parentNode.classList = 'loaded';
-					}
-				});
-			}, 2000);
+			echo.init({
+				offset: 100,
+				throttle: 250,
+				unload: false,
+				callback: function (element, op) {
+					element.parentNode.classList = 'loaded';
+				}
+			});
 		</script>
 
     </body>
