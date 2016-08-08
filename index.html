@@ -63,16 +63,16 @@
 	    	<div work me>
 	    		<h1>I make things for mobile web. I also love email.</h1>
 	    		<p>A lover of <strong>garage rock and minivans</strong>; a <strong>product designer</strong> and front-end tinkerer; a husband and a <a href="http://instagram.com/p/s6ARy0lfay/" target="_blank">rad dad with 15% more mohawk</a>. I also love Tolkein and Discworld, <a href="https://www.instagram.com/p/DYygd/" target="_blank">Led Zeppelin</a>, and my collection of colorful pants.</p>
-	    		<p class="mantra"><strong>To me, product design is not about making beautiful things.</strong> Effective product design is about creating something that you <strong>truly</strong> believe in; something human beings <strong>will, and want to, use</strong>; and making it better and better everyday.</p>
+	    		<p class="mantra"><strong>Product design is not about making beautiful things.</strong> Effective product design is about creating something that you <strong>truly</strong> believe in; something human beings <strong>will, and want to, use</strong>; and making it better and better everyday.</p>
 	    		<p class="mantra">The word beautiful permeates the digital product world unfortunately; and <strong>it does nothing to help me, nor anyone else, derive any significant value</strong> about said product.</p>
 	    		<p>Please check out some of the things <a href="#works">I&rsquo;ve worked on</a> recently, <a href="#thoughts">read some thoughts</a> of mine, check out <a href="#resume">my résumé</a> (<a href="jeff-doan-resume.pdf">download a PDF</a>), or <a href="https://twitter.com/jefffis" target="_blank">follow me on twitter</a>.</p>
-	    		<p>In closing, I couldn&rsquo;t be happier that <a href="https://twitter.com/dfa1979" target="_blank">Death from Above 1979 have reunited</a> &amp; are on tour. Do yourself a favor: go see them.</p>
+	    		<!-- <p>In closing, I couldn&rsquo;t be happier that <a href="https://twitter.com/dfa1979" target="_blank">Death from Above 1979 have reunited</a> &amp; are on tour. Do yourself a favor: go see them.</p> -->
 	    		<p sig><strong>💖</strong></p>
 	    	</div>
 
 	    	<!-- work -->
-			<div work coming-soon imgs>
-				<h1>In Progress</h1>
+			<div work coming-soon imgs id="works">
+				<h1>Selected works in progress</h1>
 				<figure>
 					<img src="img/tradesy-self-service.jpg" data-echo="img/tradesy-self-service.gif" alt="Tradesy Self-service" />
 					<figcaption>
@@ -103,7 +103,7 @@
 			<!--/ work -->
 
 	    	<!-- work -->
-			<div work yak id="works">
+			<div work yak>
 				<h1>Yak</h1>
 				<img src="img/yak-logo.png" alt="Yak logo" />
 				<p>Get reviews of books, TV shows, movies and music from friends that help you find what to <strong>love</strong> next.</p>
@@ -658,13 +658,17 @@
 
 		<script src="js/echo.js"></script>
 		<script>
-			echo.init({
-				offset: 100,
-				throttle: 250,
-				unload: false,
-				callback: function (element, op) {}
-			});
-		  </script>
+			setTimeout(function() {
+				echo.init({
+					offset: 100,
+					throttle: 250,
+					unload: false,
+					callback: function (element, op) {
+						element.parentNode.classList = 'loaded';
+					}
+				});
+			}, 2000);
+		</script>
 
     </body>
 </html>

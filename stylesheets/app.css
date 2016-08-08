@@ -290,7 +290,7 @@ work
 [coming-soon] a {
 	/*display : block;*/
 	background : none;
-	margin-top : 15px !important;
+	margin : 10px 0 0 0 !important;
 	padding : 0;
 	border-radius : 0;
 	color : #f04f23;
@@ -299,6 +299,52 @@ work
 	opacity : .65;
 	background: none;
 	color : #f04f23;
+}
+[coming-soon] img {
+	width : 100% !important;
+}
+[coming-soon] img, [coming-soon] img + img {
+	margin : 1rem 0 !important;
+}
+
+[coming-soon] figure {
+	position : relative;
+}
+[coming-soon] figure:before {
+	display : block;
+	position : absolute;
+	top : 0;
+	left : 0;
+	height : 100%;
+	width : 100%;
+	background : url(../img/lodr.gif) no-repeat center center;
+	margin-top : -1rem;
+	content : "";
+}
+[coming-soon] img {
+	opacity : .5;
+}
+[coming-soon] .loaded:before {
+	display : none;
+}
+[coming-soon] .loaded img {
+	opacity : 1;
+}
+
+@media screen and ( max-width : 400px ) {
+	[coming-soon] strong {
+		display : inline;
+	}
+	[coming-soon] a {
+		margin : 5px 0 0 0 !important;
+		font-size : 14px;
+	}
+	figure {
+		margin : 0 1.5rem;
+	}
+	figure + figure {
+		margin-top : 1.5rem;
+	}
 }
 
 [thoughts] {
@@ -530,10 +576,6 @@ article p:before {
 
 [imgs] img, [imgs] img + img {
 	margin : 1rem;
-}
-
-[coming-soon] img, [coming-soon] img + img {
-	margin : 1rem 0;
 }
 
 [works] .lg {
