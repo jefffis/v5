@@ -132,7 +132,7 @@ work
 	font-weight : 400;
 }
 [works] h1:before {
-	content : 'Mobile Web: ';
+	content : 'Web: ';
 	opacity : .35;
 }
 [works] [coming-soon] h1:before {
@@ -140,7 +140,7 @@ work
 	display : none;
 }
 [email] h1:before {
-	content : 'remail: ';
+	content : 'Email: ';
 }
 [app] h1:before {
 	content : 'App: ';
