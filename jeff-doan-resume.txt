@@ -1,107 +1,162 @@
-# Jeff Doan; a bit about me.
+############################
+#                          #
+#  Jeff Doan               #
+#  the.jeffdoan@gmail.com  #
+#  hire.jefff.co           #
+#  703-867-5220            #
+#  Los Angeles, CA         #
+#                          #
+############################
 
-A lover of garage rock and minivans; a product designer and front-end tinkerer; a husband and a rad dad with 15% more mohawk (http://instagram.com/p/s6ARy0lfay/). I also love Tolkein and Discworld; wiener dogs (http://instagram.com/p/CxfHT/); and my collection of colorful pants.
+I make things for the mobile web, and I love HTML email. I'm also a lover of garage rock, vinyls, and minivans; a product designer and front-end tinkerer; a husband and dad. I also love Tolkein and Discworld, Led Zeppelin, my collection of colorful pants, and I live in LA. I love making products that help people do things they easily cannot do otherwise.
 
-To me, product design is not about making beautiful things. Effective product design is about creating something that you truly believe in; something human beings will, and want to, use; and making it better and better everyday.
+~~~~~~~~~~~~~~
 
-The word beautiful permeates the digital product world unfortunately; and it does nothing to help me, nor anyone else, derive any significant value about said product.
+To me, product design is about creating something of value; something actual people will want to use. It's the process of making it better and better everyday. It's learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible.
 
-Also, I live in Arlington, VA with my South African wife, rambunctious daughter, and wiener dog named Bean. Email me @ the.jeffdoan@gmail.com or give me a shout @ 703-867-5220.
+Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product.
 
-## Now, onto my resume:
+~~~~~~~~~~~~~~
 
-* UI & UX design
-* HTML, CSS / SASS, Javascript / jQuery
-* PHP, a decent bit of Ruby & Rails, and some Java/JSP
-* RESS / Responsive design & dev
-* Saas marketing & design
-* Command line, git & markdown
+Solving user problems, with business goals in mind, is my bag. Below are some of my skills & resume:
+
+* UX design: research, user testing, sketching & wireframing
+* UI design: Sketch/Photoshop, hand-coded prototyping
+* Front-end: HTML, CSS & JavaScript (some React)
+* Back-end: PHP, some Ruby/Rails
+* HTML email: design, build & testing
+* git & markdown
 * Jekyll & Wordpress
-* Mobile design & dev
-* Wireframing (I <3 GoMockingbird app)
-* Photoshop / Illustrator / InDesign (I also <3 print design)
-* HTML email design, build & testing using Mailchimp, CampaignMonitor & Litmus
-* Basecamp
-* Tomfoolery
+* SaaS marketing & design
 * Being a music snob & hating on Facebook
 
+
 --------
+
+
+## Product Designer
+### Tradesy: Jan '15 -- present
+
+* Mobile web navigation: redesigned and built new navigation to kill the hamburger menu
+  - led to deeper, longer site sessions
+* Mobile + tablet signup / login: redesigned and built new pattern for simpler use
+  - led to more conversions
+* Self-service: researched, designed and built custom Zendesk integration on tradesy.com via their API
+  - freed up Member Care team to tackle bigger member issues
+* Mobile + tablet shopping filters: researched, designed and built new filter patterns
+* Promoted Listings: researched, designed, and prototyped first non-commission revenue stream
+  - ongoing effort
+* In-app Notifications: designed and built framework for system in-app notifications
+* Cookie consolidation: built name/key object cookie support to reduce the number of cookies we use overall
+* Performance improvements: across the board
+  - HTML, CSS and image optimization strategies
+* Built personalized email recommendations template / custom image gallery email
+* Designed & built personalized mobile web homepage concept
+
+
+--------
+
 
 ## Lead UI/UX Designer
-### LeagueApps Sep '13 -- Present
+### LeagueApps: Sep '13 -- Dec '13
 
 * The whole shebang: stakeholder interviews, user testing, usability testing, wireframing, UX & UI design, front-end build &s JSP integration
-* Created & implemented design & front-end mobile framework for LeagueApps-powered sites (16m+ uniques / year and growing) -- works on iOS, Android and Windows
-* Created & implemented design & hand-crafted code for LeagueApps-sent emails -- works in all email clients & Gmail on mobile
-* Redoing the [leagueapps.com marketing site to improve conversions for our unique marketshare](http://xen1.sportsvite.com/devui/la-marketing-site/) -- rethinking how the saas platform sales cycle should be presented to prospects
+* Designed and built front-end mobile framework for LeagueApps-powered sites (16m+ uniques / year and growing)
+  - works on iOS, Android and Windows
+* Designed and built LeagueApps-sent emails
+  - work in all email clients & Gmail on mobile
+* Redesigned the leagueapps.com marketing site to improve conversions for our unique marketshare
+  - rethinking how the SaaS platform sales cycle should be presented to prospects (not launched before I transitioned)
+
 
 --------
 
-## CSS Developer
-### nclud July '11 -- Sep '13
 
-* Developed usable, optimized, speedy websites for multiple clients -- [some design], front-end coding & templates for Ruby on Rails / Java / WordPress / ExressionEngine / Codeigniter CMS integrations
+## CSS Developer
+### nclud: July '11 -- Sep '13
+
+* Developed usable, optimized, speedy websites for multiple clients
+  - [some design], front-end coding & templates for Ruby on Rails / Java / WordPress / ExpressionEngine / Codeigniter CMS integrations
 * Designed/built Facebook apps
 * Led the design & development of mobile-specific template module for our open-source Ruby on Rails CMS: BrowserCMS
 * Led card-sorting & conducted user-testing for client sites
 * Created HTML prototypes / for IA testing
-* Spoke (& didn't voice crack) at multiple events
+* Spoke & didn't voice crack at multiple events
+
 
 --------
+
 
 ## Sr. Interactive Designer
-### Thinkdesign Feb '10 -- July '11
+### Thinkdesign: Feb '10 -- July '11
 
-* Developed usable, optimized websites for multiple clients -- wireframing, design, front-end coding, and CMS integrations
-* Designed and developed HTML emails for national / international campaigns -- wireframing, design, coding, and testing
-* Designed banner ads (animated gif & flash)
+* Developed usable, optimized websites for multiple clients
+  - wireframing, design, front-end coding, and CMS integrations
+* Designed and developed HTML emails for national / international campaigns
+  - wireframing, design, coding, and testing
+* Designed banner ads via animated gifs before it was cool
 * Created and implemented client PPC campaigns
 
+
 --------
+
 
 ## eMarketing Manager
-### Marketing General Apr '08 -- Feb '10
+### Marketing General: Apr '08 -- Feb '10
 
-* Developed micro-sites for national campaigns -- design, wireframing, and front-end coding
-* Developed HTML emails for national / international campaigns -- wireframing, design, coding, and testing
+* Developed micro-sites for national campaigns
+  - design, wireframing, and front-end coding
+* Developed HTML emails for national / international campaigns
+  - wireframing, design, coding, and testing
 * Developed promotional, trigger-based, and newsletter HTML emails
-* Designed banner ads (animated gif & flash [boo])
+* Designed banner ads via animated gifs before it was cool
 * Managed team with senior developer
+
 
 --------
 
+
 ## Sr. Designer
-### Healthy Back Store Feb '05 -- Apr '08
+### Healthy Back Store: Feb '05 -- Apr '08
 
 * Developed direct mail for national campaigns
 * Designed ROP for national newspaper & magazine publications such as The Washington Post, The San Diego Tribune, The Wall Street Journal, and The Boston Globe
 * Worked closely with vendors managing multiple print jobs
 * Managed team with junior designer
 
+
 --------
+
 
 ## Jr. Web Designer
-### Sit4Less.com Feb '05 -- Apr '08
+### Sit4Less.com: Feb '05 -- Apr '08
 
-* Developed email and banner ads for national campaigns -- wireframing, design, coding, and testing
+* Developed email and banner ads for national campaigns
+  - wireframing, design, coding, and testing
 * Developed landing pages for national and local campaigns
+
 
 --------
 
+
 ## Jr. Graphic Designer
-### Rocket 9 Design Fed '05 -- Sep '05
+### Rocket 9 Design: Feb '05 -- Sep '05
 
 * Created t-shirts, retooled website, developed direct mail
 
+
 --------
+
 
 ## Education
 ### James Madison U 2004
 
 * B.S. in Studio Art, 3.28 G.P.A.
 
---------
 
-In closing, I couldn't be happier that Death from Above 1979 have reunited & are on tour. But, more importantly if you're so inclined, find more about me here (http://hire.jefff.co), or follow me (http://twitter.com/jefffis) on twitter.
+~~~~~~~~~~~~~~
+
+
+In closing, I couldn't be happier that Death from Above 1979 are back on tour. But, more importantly if you're so inclined, find more about me here (http://hire.jefff.co), or follow me on Twitter (https://twitter.com/jefffis), Medium (https://medium.com/@jefffis), or on Github (https://github.com/@jefffis).
 
 <3
