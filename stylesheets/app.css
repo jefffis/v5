@@ -24,13 +24,13 @@ strong {
 	color : #040407;
 }
 h1, h2, h3, h4, p {
-	margin : 0 0 .25em;
+	margin : 0 0 .25rem;
 }
 [center-text] {
 	text-align : center;
 }
 [pad-top] {
-	padding-top : 3em;
+	padding-top : 3rem;
 }
 [light] {
 	font-weight : normal;
@@ -65,7 +65,7 @@ header
 ************/
 header, [me] {
 	background : #4A3E42;
-	padding : 3em 1.5em;
+	padding : 3em 1.5rem;
 	position : relative;
 }
 header h2 {
@@ -78,8 +78,8 @@ header span {
 header img {
 	display : block;
 	position : absolute;
-	top : 2.5em;
-	right : 1.5em;
+	top : 2.5rem;
+	right : 1.5rem;
 	max-width : 50px;
 	border-radius : 100%;
 }
@@ -91,8 +91,8 @@ work
 	color : white;
 }
 [works] h1 {
-	margin-bottom : 1em;
-	padding : 0 .85em;
+	margin-bottom : 1rem;
+	padding : 0 .85rem;
 	font-weight : 400;
 }
 [works] h1:before {
@@ -116,19 +116,19 @@ work
 	overflow : hidden;
 }
 [works] p {
-	padding : 0 1.5em;
-	font-size : 1.1em;
-	max-width : 30em;
+	padding : 0 1.5rem;
+	font-size : 1.1rem;
+	max-width : 30rem;
 	margin : 3em auto 0;
 	text-align : left;
 	color : rgba(255,255,255,0.5);
 }
 [works] p + p {
-	margin-top : 1em;
+	margin-top : 1rem;
 }
 [works] [sig] {
 	text-align : right;
-	margin-top : 2em;
+	margin-top : 2rem;
 }
 [sig] strong {
 	font-size : 2rem;
@@ -142,7 +142,7 @@ work
 }
 [works] a {
 	display : inline-block;
-	margin : 2em 0 0 1.5em;
+	margin : 2em 0 0 1.5rem;
 	padding : 1em 1.25rem;
 	border-radius : 3px;
 	/*border : 2px solid rgba(0,0,0,0.05);*/
@@ -197,7 +197,7 @@ work
 	content : "";
 }
 [me] {
-	padding-top : 1.5em;
+	padding-top : 1.5rem;
 }
 [me] strong, [me] a {
 	color : yellow;
@@ -275,10 +275,41 @@ work
 }
 
 [coming-soon] {
+	max-width : 800px;
+	margin : auto;
+}
+[coming-soon] hr {
+	clear : both;
+	height : 50px;
+	background : none;
+	border : 0;
+}
+[coming-soon] hr:nth-of-type(2) {
+	height : 0;
+}
+[coming-soon] div {
+	padding-top : 180px;
+	padding-left : ;
+}
+[coming-soon] p {
+	max-width : 100%;
+	margin : 0;
+}
+[coming-soon] p:nth-of-type(n+2) {
+	font-size: 14px;
+}
+[coming-soon], [coming-soon] p {
 	color : #040407;
 }
 [coming-soon] figure {
 	display : inline-block;
+	float : left;
+	margin-right : 60px;
+}
+[coming-soon] figure:nth-of-type(n+2) {
+	float : right;
+	margin-right : 0;
+	margin-left : 60px;
 }
 [coming-soon] figcaption {
 	color : #999;
@@ -286,6 +317,14 @@ work
 [coming-soon] strong {
 	display : block;
 	color : #040407;
+}
+[coming-soon] em {
+	display : block;
+	color : #999;
+	font-size: 14px;
+	font-style: normal;
+	letter-spacing : 1px;
+	text-transform : uppercase;
 }
 [coming-soon] a {
 	/*display : block;*/
@@ -331,6 +370,16 @@ work
 	opacity : 1;
 }
 
+@media screen and ( max-width : 750px ) {
+	[coming-soon] figure, [coming-soon] figure:nth-of-type(2) {
+		float : none;
+		margin : 0;
+	}
+	[coming-soon] div {
+		padding-top : 0;
+	}
+}
+
 @media screen and ( max-width : 400px ) {
 	[coming-soon] strong {
 		display : inline;
@@ -348,14 +397,14 @@ work
 }
 
 [thoughts] {
-	padding : 0 1.5em;
+	padding : 0 1.5rem;
 }
 article {
-	max-width : 32.5em;
+	max-width : 32.5rem;
 	margin : 0 auto;
 }
 [no-bot] {
-	margin-bottom : -2.5em;
+	margin-bottom : -2.5rem;
 	padding-bottom : 0;
 	opacity : .65;
 }
@@ -366,8 +415,8 @@ article h2 {
 }
 article small {
 	display : block;
-	margin : 2em 0 1.5em;
-	padding-left : .5em;
+	margin : 2em 0 1.5rem;
+	padding-left : .5rem;
 	border-left : 2px solid #ddd;
 }
 article a {
@@ -417,19 +466,19 @@ article p:before {
 /*** resume ***/
 /*[resume] {
 	border-top : 2px solid #ddd;
-	margin-top : 3em;
-	padding-top : 3em;
+	margin-top : 3rem;
+	padding-top : 3rem;
 }*/
 .mustachio img {
 	display : block;
 	margin : 0 auto;
-	padding : 3.5em 0 1em;
+	padding : 3.5em 0 1rem;
 	width : 125px;
 }
 .res-content {
 	margin : 0 auto;
-	max-width : 35em;
-	padding : 1.5em 1.5em 5em;
+	max-width : 35rem;
+	padding : 1.5em 1.5em 5rem;
 }
 [resume] h2, [resume] h3 {
 	color : #7bc9b6;
@@ -440,7 +489,7 @@ article p:before {
 	font-size : 30px;
 }
 [resume] h2 + h2 {
-	margin-top : 1em;
+	margin-top : 1rem;
 }
 [resume] h3 {
 	color : #999;
@@ -472,10 +521,10 @@ article p:before {
 	content : ".";
 }
 [resume] li + li {
-	margin-top : .75em;
+	margin-top : .75rem;
 }
 [resume] ul + h2, [resume] h3 + h2 {
-	margin-top : 3em;
+	margin-top : 3rem;
 }
 [resume] [center-text] {
 	margin : 5em 0 0;
@@ -488,7 +537,7 @@ article p:before {
 	background : #fefebf;
 	color : #316cb5;
 	display : block;
-	padding : 1.5em;
+	padding : 1.5rem;
 	text-align : center;
 }
 .back:hover {
