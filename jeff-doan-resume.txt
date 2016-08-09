@@ -8,11 +8,13 @@
 #                          #
 ############################
 
-I make things for the mobile web, and I love HTML email. I'm a Los Angeles-based nerd, product designer, and front-end tinkerer, husband and father. I'm also a lover of garage rock, Led Zeppelin vinyls, minivans, Tolkien & Discworld, and my collection of colorful pants. Whenever I can, I try to make products that help people do things they easily cannot do otherwise. And designing a product doesn't end when code begins, it's one and the same.
+
+# A bit about me
+I make things for the mobile web, and I love HTML email. I'm a Los Angeles-based nerd, product designer, front-end tinkerer, husband and father. Whenever I can, I try to make products that help people do things they easily cannot do otherwise.
 
 ~~~~~~~~~~~~~~
 
-To me, product design is about creating something of value; something actual people will want to use. It’s the process of making it better and better everyday. It’s learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible. It’s also learning how they use your product: on Windows, mobile, low-bandwidth access, etc., and then designing for these scenarios.
+To me, product design is about creating something of value; something actual people will want to use. It's the process of making it better and better everyday. It's learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible. It's also learning how they use your product: on Windows, mobile, low-bandwidth access, etc., and then designing for these scenarios.
 
 Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product.
 
