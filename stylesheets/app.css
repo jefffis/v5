@@ -92,7 +92,7 @@ work
 }
 [works] h1 {
 	margin-bottom : 1rem;
-	padding : 0 .85rem;
+	padding : 0 1.25rem;
 	font-weight : 400;
 }
 [works] h1:before {
@@ -372,6 +372,10 @@ work
 }
 
 @media screen and ( max-width : 750px ) {
+	[coming-soon] {
+		padding-left : 1.25rem;
+		padding-right : 1.25rem;
+	}
 	[coming-soon] figure, [coming-soon] figure:nth-of-type(2) {
 		float : none;
 		margin : 0;
@@ -381,15 +385,18 @@ work
 		margin-left : auto;
 		margin-right : auto;
 		padding-top : 30px;
-		text-align : center;
 	}
 	[coming-soon] div p {
 		padding-left : 0;
 		padding-right : 0;
+		/*text-align : center;*/
+	}
+	[coming-soon] h1 {
+		padding : 0;
 	}
 }
 
-@media screen and ( max-width : 400px ) {
+/*@media screen and ( max-width : 400px ) {
 	[coming-soon] strong {
 		display : inline;
 	}
@@ -403,7 +410,7 @@ work
 	figure + figure {
 		margin-top : 1.5rem;
 	}
-}
+}*/
 
 [thoughts] {
 	padding : 0 1.5rem;
