@@ -65,7 +65,7 @@ header
 ************/
 header, [me] {
 	background : #4A3E42;
-	padding : 3em 1.5rem;
+	padding : 3rem 1.5rem;
 	position : relative;
 }
 header h2 {
@@ -104,7 +104,7 @@ work
 	display : none;
 }
 [email] h1:before {
-	content : 'Email: ';
+	content : 'remail: ';
 }
 [app] h1:before {
 	content : 'App: ';
@@ -119,7 +119,7 @@ work
 	padding : 0 1.5rem;
 	font-size : 1.1rem;
 	max-width : 30rem;
-	margin : 3em auto 0;
+	margin : 3rem auto 0;
 	text-align : left;
 	color : rgba(255,255,255,0.5);
 }
@@ -134,7 +134,7 @@ work
 	font-size : 2rem;
 }
 [works] .mantra {
-	margin : 2em auto;
+	margin : 2rem auto;
 	border-left : 5px solid rgba(255,255,255,0.25);
 }
 [works] strong, [works] .white {
@@ -142,8 +142,8 @@ work
 }
 [works] a {
 	display : inline-block;
-	margin : 2em 0 0 1.5rem;
-	padding : 1em 1.25rem;
+	margin : 2rem 0 0 1.5rem;
+	padding : 1rem 1.25rem;
 	border-radius : 3px;
 	/*border : 2px solid rgba(0,0,0,0.05);*/
 	background : rgba(0,0,0,0.25);
@@ -208,7 +208,10 @@ work
 	opacity : .5;
 }
 [work], article {
-	padding : 3em 0;
+	padding : 3rem 0;
+}
+article:nth-of-type(n+2) {
+	padding : 1.5rem 0;
 }
 
 [me] h1:before {
@@ -342,7 +345,7 @@ work
 	display : block;
 	color : #040407;
 }
-[coming-soon] em {
+[coming-soon] rem {
 	display : block;
 	color : #999;
 	font-size: 14px;
@@ -420,7 +423,7 @@ work
 	margin-top : 0;
 }
 [white] p + p.lg {
-	margin-top : 2.5rem;
+	margin-top : 3rem;
 }
 [white] img {
 	padding : 100px;
@@ -433,6 +436,9 @@ work
 @media screen and ( max-width : 500px ) {
 	[white] img {
 		padding : 50px;
+	}
+	[white] p.lg {
+		padding-left : 1.5rem;
 	}
 }
 
@@ -496,7 +502,7 @@ article h2 {
 }
 article small {
 	display : block;
-	margin : 2em 0 1.5rem;
+	margin : 2rem 0 1.5rem;
 	padding-left : .5rem;
 	border-left : 2px solid #ddd;
 }
@@ -553,13 +559,13 @@ article p:before {
 .mustachio img {
 	display : block;
 	margin : 0 auto;
-	padding : 3.5em 0 1rem;
+	padding : 3.5rem 0 1rem;
 	width : 125px;
 }
 .res-content {
 	margin : 0 auto;
 	max-width : 35rem;
-	padding : 1.5em 1.5em 5rem;
+	padding : 1.5rem 1.5rem 5rem;
 }
 [resume] h2, [resume] h3 {
 	color : #7bc9b6;
@@ -608,7 +614,7 @@ article p:before {
 	margin-top : 3rem;
 }
 [resume] [center-text] {
-	margin : 5em 0 0;
+	margin : 5rem 0 0;
 }
 [resume] a {
 	color : #47A891;
@@ -628,7 +634,7 @@ article p:before {
 	opacity : .65;
 }
 .more-mar {
-	margin : 3em 0;
+	margin : 3rem 0;
 }
 
 [imgs] img {
@@ -666,7 +672,7 @@ article p:before {
 	text-align : center;
 }
 [work] {
-	padding : 6em 0;
+	padding : 6rem 0;
 }
 [works] img {
 	border-top : 2px solid rgba(0,0,0,0.05);
@@ -684,7 +690,7 @@ article p:before {
 	box-shadow : 0 0 0 2px rgba(0, 0, 0, 0.15);
 }
 [works] a {
-	margin : 3em 0 0 0;
+	margin : 3rem 0 0 0;
 }
 [me] a {
 	margin : 0;
