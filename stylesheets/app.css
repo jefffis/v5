@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 300;
@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Oxygen Bold'), local('Oxygen-Bold'), url(https://fonts.gstatic.com/s/oxygen/v5/yVHpdQrmTj9Kax1tmFSx2rO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
+}*/
 * {
 	-webkit-box-sizing : border-box;
 	-moz-box-sizing : border-box;
@@ -92,7 +92,7 @@ work
 }
 [works] h1 {
 	margin-bottom : 1rem;
-	padding : 0 1.25rem;
+	padding : 0 1.5rem;
 	font-weight : 400;
 }
 [works] h1:before {
@@ -150,6 +150,22 @@ work
 	/*box-shadow : 0 0 0 2px rgba(255,255,255,0.15);*/
 	/*text-decoration : none;*/
 	color : white;
+	text-decoration : none;
+}
+[data-small] {
+	position : relative;
+}
+[data-small]:after {
+	display : block;
+	position : absolute;
+	top : 100%;
+	left : 0;
+	width : 100%;
+	opacity : .5;
+	margin-top : 8px;
+	content : attr(data-small);
+	font-size : 10px;
+	text-align : center;
 }
 [works] small {
 	display : block;
@@ -160,6 +176,7 @@ work
 	background : none;
 	padding : 0;
 	opacity : .75;
+	text-decoration : underline;
 }
 [works] small a:active {
 	background : none;
@@ -178,6 +195,7 @@ work
 	border : 0;
 	background : none;
 	border-radius : 0;
+	text-decoration : underline;
 	/*border-bottom : 2px solid yellow;*/
 }
 [works] a:active {
@@ -232,6 +250,11 @@ work
 }
 [yak] p {
 	max-width : 350px;
+}
+@media screen and ( max-width : 351px ) {
+	[yak] p {
+		margin-left : 0;
+	}
 }
 /*[dads] img {
 	background : #9de0ad;
@@ -327,15 +350,16 @@ work
 	letter-spacing : 1px;
 	text-transform : uppercase;
 }
-[coming-soon] a {
+[coming-soon] a, [white] a {
 	/*display : block;*/
 	background : none;
 	margin : 10px 0 0 0 !important;
 	padding : 0;
 	border-radius : 0;
 	color : #f04f23;
+	text-decoration : underline;
 }
-[coming-soon] a:active {
+[coming-soon] a:active, [white] a:active {
 	opacity : .65;
 	background: none;
 	color : #f04f23;
@@ -369,6 +393,47 @@ work
 }
 [coming-soon] .loaded img {
 	opacity : 1;
+}
+
+[white], [white] strong, [white] p.lg {
+	color : #040407;
+}
+[white] p {
+	color : #666;
+	font-size : 15px;
+}
+[white] p.lg {
+	padding-left : 1.25rem;
+}
+[white] .lg em {
+	display : block;
+	margin-bottom : 1rem;
+	color : #999;
+	font-size : 14px;
+	font-style : normal;
+	font-weight : bold;
+}
+[white] h1:before {
+	display : none !important;
+}
+[white] p.lg + p {
+	margin-top : 0;
+}
+[white] p + p.lg {
+	margin-top : 2.5rem;
+}
+[white] img {
+	padding : 100px;
+}
+[white] .highlight {
+	border-left: 5px solid #ddd;
+	font-style : italic;
+}
+
+@media screen and ( max-width : 500px ) {
+	[white] img {
+		padding : 50px;
+	}
 }
 
 @media screen and ( max-width : 750px ) {
@@ -644,7 +709,7 @@ article p:before {
 }
 
 [works] .lg {
-	padding-left : 0;
+	padding-left : 1rem;
 }
 
 }
