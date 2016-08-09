@@ -214,7 +214,7 @@ work
 }
 [works] small {
 	display : block;
-	margin-top : 3rem;
+	margin-top : 4.5rem;
 }
 [works] small a {
 	display : inline;
@@ -444,7 +444,7 @@ article:nth-of-type(n+2) {
 }
 
 [white], [white] strong, [white] p.lg {
-	color : #040407;
+	color : #4a3e42;
 }
 [white] p {
 	color : #666;
