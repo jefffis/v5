@@ -8,7 +8,7 @@
 #                          #
 ############################
 
-I make things for the mobile web, and I love HTML email. I'm also a lover of garage rock, vinyls, and minivans; a product designer and front-end tinkerer; a husband and dad. I also love Tolkien and Discworld, Led Zeppelin, my collection of colorful pants, and I live in LA. I love making products that help people do things they easily cannot do otherwise.
+I make things for the mobile web, and I love HTML email. I'm a Los Angeles-based nerd, product designer, and front-end tinkerer, husband and father. I'm also a lover of garage rock, Led Zeppelin vinyls, minivans, Tolkien & Discworld, and my collection of colorful pants. Whenever I can, I try to make products that help people do things they easily cannot do otherwise. And designing a product doesn't end when code begins, it's one and the same.
 
 ~~~~~~~~~~~~~~
 
