@@ -78,6 +78,24 @@ h1, h2, h3, h4, p {
 	float : right;
 }
 
+.back {
+	background : #FCFCDC;
+	color : #4a3e42;
+	display : block;
+	padding : 1.5rem;
+	font-size : 15px;
+	text-align : center;
+}
+/*.back:hover {
+	text-decoration : none;
+}*/
+.back:active {
+	opacity : .65;
+}
+.more-mar {
+	margin : 3rem 0;
+}
+
 /************
 header
 ************/
@@ -141,6 +159,13 @@ work
 	text-align : left;
 	color : rgba(255,255,255,0.75);
 }
+
+@media screen and ( max-width : 500px ) {
+	[works] p, article p {
+		font-size: 15px;
+	}
+}
+
 [works] p + p {
 	margin-top : 1rem;
 }
@@ -588,7 +613,8 @@ article p:before {
 	padding : 1.5rem 1.5rem 5rem;
 }
 [resume] h2, [resume] h3 {
-	color : #7bc9b6;
+	/*color : #7bc9b6;*/
+	color : #4a3e42;
 	font-weight : normal;
 	line-height : 1.1;
 }
@@ -602,7 +628,8 @@ article p:before {
 	color : #999;
 }
 [resume] h3 strong {
-	color : #a8e2d4;
+	/*color : #a8e2d4;*/
+	color : #4a3e42;
 	float : right;
 	font-weight : normal;
 }
@@ -611,6 +638,16 @@ article p:before {
 	padding : 0 0 0 1rem;
 	border-left : 2px solid #ddd;
 }
+
+@media screen and ( max-width : 500px ) {
+	[resume] ul {
+		margin-left : -1.5rem;
+	}
+	[resume] h2, [resume] h3 {
+		margin-left : -.25rem;
+	}
+}
+
 /*[resume] ul:before {
 	display : block;
 	padding-bottom : 1rem;
@@ -636,25 +673,9 @@ article p:before {
 [resume] [center-text] {
 	margin : 5rem 0 0;
 }
-[resume] a {
-	color : #47A891;
-}
-
-.back {
-	background : #fefebf;
-	color : #316cb5;
-	display : block;
-	padding : 1.5rem;
-	text-align : center;
-}
-.back:hover {
-	text-decoration : none;
-}
-.back:active {
-	opacity : .65;
-}
-.more-mar {
-	margin : 3rem 0;
+[resume] a, [resume] strong {
+	/*color : #47A891;*/
+	color : #4a3e42;
 }
 
 [imgs] img {
