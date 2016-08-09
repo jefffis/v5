@@ -38,9 +38,10 @@
   </head>
   <body>
 
-  		<div id="updates">
+  		<div id="updates" class="cf">
 	    	<p>
-	    		Last <a href="#works">updated</a> 8.8.16
+	    		<span><a href="#works">Updated</a> August 9th, 2016</span>
+	    		<span><a href="mailto:the.jeffdoan@gmail.com?subject=Come work for us please">Hire me</a></span>
 	    	</p>
 	    </div>
     	
@@ -58,11 +59,20 @@
 	    <div works>
 
 	    	<div work me>
-	    		<h1>I make things for mobile web. I also love email.</h1>
-	    		<p>A lover of <strong>garage rock and minivans</strong>; a <strong>product designer</strong> and front-end tinkerer; a husband and a <a href="http://instagram.com/p/s6ARy0lfay/" target="_blank">rad dad with 15% more mohawk</a>. I also love Tolkein and Discworld, <a href="https://www.instagram.com/p/DYygd/" target="_blank">Led Zeppelin</a>, and my collection of colorful pants.</p>
-	    		<p class="mantra"><strong>Product design is not about making beautiful things.</strong> Effective product design is about creating something that you <strong>truly</strong> believe in; something human beings <strong>will, and want to, use</strong>; and making it better and better everyday.</p>
-	    		<p class="mantra">The word beautiful permeates the digital product world unfortunately; and <strong>it does nothing to help me, nor anyone else, derive any significant value</strong> about said product.</p>
-	    		<p>Please check out some of the things <a href="#works">I&rsquo;ve worked on</a> recently, <a href="#thoughts">read some thoughts</a> of mine, check out <a href="#resume">my résumé</a> (<a href="jeff-doan-resume.pdf">download a PDF</a>), or <a href="https://twitter.com/jefffis" target="_blank">follow me on twitter</a>.</p>
+	    		<h1>I make things for the mobile web. I also love email.</h1>
+	    		<p>
+	    			I&rsquo;m a lover of garage rock, vinyls, and minivans; a <strong>product designer and front-end tinkerer</strong>; a husband and dad. I also love Tolkein and Discworld, Led Zeppelin, my collection of colorful pants, and I live in LA.
+	    		</p>
+	    		<p>
+	    			I love making products that help people do things they easily cannot do otherwise (see <a href="#imgRszr">imgRszr</a>).
+	    		</p>
+	    		<p class="mantra">
+	    			To me, product design is about creating something of value; something actual people will want to use. It&rsquo;s the process of making it better and better everyday. It&rsquo;s learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible.
+	    		</p>
+	    		<p class="mantra">
+	    			Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product.
+	    		</p>
+	    		<p>Please check out some of the things <a href="#works">I&rsquo;ve worked on</a> recently, <a href="#thoughts">read some thoughts</a> of mine, check out <a href="#resume">my résumé</a> (<a href="jeff-doan-resume.pdf">download a PDF</a>), or follow me on <a href="https://twitter.com/jefffis" target="_blank">Twitter</a>, <a href="https://medium.com/@jefffis">Medium</a>, or on <a href="https://github.com/jefffis">Github</a>.</p>
 	    		<p sig><strong>💖</strong></p>
 	    	</div>
 
@@ -94,7 +104,7 @@
 					We wanted to build more intuitive, and more predictable filters to help our members find what they wanted to. The result (not in production yet, but in user-testing) has proven to do just what we wanted it to&mdash;it&rsquo;s allowed our users to, in a stable manner, filter down to the right set of items quicker and easier. <strong>I designed and built the prototype for user-testing.</strong>
 				</p>
 				<p>
-					<a href="http://wtf.jefff.co/Tradesy-Comps/mobile-filters/iframe.html" target="_blank">View prototype</a>
+					<a id="filters-link" href="http://wtf.jefff.co/Tradesy-Comps/mobile-filters/iframe.html" target="_blank">View prototype</a>
 				</p>
 	    		<p class="lg">Promoted Listings</p>
 	    		<p>
@@ -219,7 +229,7 @@
 			<!--/ work -->
 
 			<!-- work -->
-			<div work img app>
+			<div work img app id="imgRszr">
 				<h1>imgRszr</h1>
 				<img src="img/imgrszr.png" alt="imgRszr logo" />
 				<p><strong>A simple way for non-tech savvy folk to resize and optimize images for use on the web.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did most of the Rails work.</p>
@@ -678,6 +688,26 @@
 				}
 			});
 		</script> -->
+
+		<script>
+			var isMobile = {
+				Android: function() {
+					return navigator.userAgent.match(/Android/i);
+				},
+				iOS: function() {
+					return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+				},
+				Windows: function() {
+					return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+				},
+				any: function() {
+					return (isMobile.Android() || isMobile.iOS() || isMobile.Windows());
+				}
+			};
+			if(isMobile.any()) {
+				document.getElementById('filters-link').href = 'http://wtf.jefff.co/Tradesy-Comps/mobile-filters/';
+			}
+		</script>
 
     </body>
 </html>
