@@ -625,11 +625,17 @@ article p:before {
 	margin-top : 1rem;
 }
 [resume] h3 {
-	color : #999;
+	color : #666;
+}
+[resume] h3:before {
+	display : inline-block;
+	margin-right : .125rem;
+	color : #ccc;
+	content : "@";
 }
 [resume] h3 strong {
 	/*color : #a8e2d4;*/
-	color : #4a3e42;
+	/*color : #4a3e42;*/
 	float : right;
 	font-weight : normal;
 }
@@ -646,6 +652,13 @@ article p:before {
 	[resume] h2, [resume] h3 {
 		margin-left : -.25rem;
 	}
+	[resume] h3 {
+		margin-top : .5rem;
+		font-size : 14px;
+	}
+	/*[resume] h3:before {
+		display : none;
+	}*/
 }
 
 /*[resume] ul:before {
@@ -771,11 +784,11 @@ article p:before {
 	content : "Pjct : ";
 }
 
-[resume] h3 strong {
+/*[resume] h3 strong {
 	display : block;
 	float : none;
 	padding-top : 4px;
-}
+}*/
 article h2, [resume] h2 {
 	font-size : 22px;
 }
@@ -792,4 +805,9 @@ article h2, [resume] h2 {
 	max-width : 100%;
 }
 
+}
+
+.centered {
+	padding-bottom : 5rem;
+	text-align : center;
 }
