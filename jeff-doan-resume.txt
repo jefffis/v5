@@ -8,13 +8,15 @@
 #                          #
 ############################
 
-I make things for the mobile web, and I love HTML email. I'm also a lover of garage rock, vinyls, and minivans; a product designer and front-end tinkerer; a husband and dad. I also love Tolkein and Discworld, Led Zeppelin, my collection of colorful pants, and I live in LA. I love making products that help people do things they easily cannot do otherwise.
+I make things for the mobile web, and I love HTML email. I'm also a lover of garage rock, vinyls, and minivans; a product designer and front-end tinkerer; a husband and dad. I also love Tolkien and Discworld, Led Zeppelin, my collection of colorful pants, and I live in LA. I love making products that help people do things they easily cannot do otherwise.
 
 ~~~~~~~~~~~~~~
 
-To me, product design is about creating something of value; something actual people will want to use. It's the process of making it better and better everyday. It's learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible.
+To me, product design is about creating something of value; something actual people will want to use. It’s the process of making it better and better everyday. It’s learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible. It’s also learning how they use your product: on Windows, mobile, low-bandwidth access, etc., and then designing for these scenarios.
 
 Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product.
+
+Can I help you build better products? Get in touch, the.jeffdoan@gmail.com, if so.
 
 ~~~~~~~~~~~~~~
 
@@ -35,7 +37,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Product Designer
-### Tradesy: Jan '15 -- present
+@Tradesy: Jan '15 -- present
 
 * Mobile web navigation: redesigned and built new navigation to kill the hamburger menu
   - led to deeper, longer site sessions
@@ -58,7 +60,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Lead UI/UX Designer
-### LeagueApps: Sep '13 -- Dec '13
+@LeagueApps: Sep '13 -- Dec '13
 
 * The whole shebang: stakeholder interviews, user testing, usability testing, wireframing, UX & UI design, front-end build &s JSP integration
 * Designed and built front-end mobile framework for LeagueApps-powered sites (16m+ uniques / year and growing)
@@ -73,7 +75,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## CSS Developer
-### nclud: July '11 -- Sep '13
+@nclud: July '11 -- Sep '13
 
 * Developed usable, optimized, speedy websites for multiple clients
   - [some design], front-end coding & templates for Ruby on Rails / Java / WordPress / ExpressionEngine / Codeigniter CMS integrations
@@ -88,7 +90,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Sr. Interactive Designer
-### Thinkdesign: Feb '10 -- July '11
+@Thinkdesign: Feb '10 -- July '11
 
 * Developed usable, optimized websites for multiple clients
   - wireframing, design, front-end coding, and CMS integrations
@@ -102,7 +104,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## eMarketing Manager
-### Marketing General: Apr '08 -- Feb '10
+@Marketing General Inc.: Apr '08 -- Feb '10
 
 * Developed micro-sites for national campaigns
   - design, wireframing, and front-end coding
@@ -117,7 +119,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Sr. Designer
-### Healthy Back Store: Feb '05 -- Apr '08
+@Healthy Back Store: Feb '05 -- Apr '08
 
 * Developed direct mail for national campaigns
 * Designed ROP for national newspaper & magazine publications such as The Washington Post, The San Diego Tribune, The Wall Street Journal, and The Boston Globe
@@ -129,7 +131,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Jr. Web Designer
-### Sit4Less.com: Feb '05 -- Apr '08
+@Sit4Less.com: Feb '05 -- Apr '08
 
 * Developed email and banner ads for national campaigns
   - wireframing, design, coding, and testing
@@ -140,7 +142,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Jr. Graphic Designer
-### Rocket 9 Design: Feb '05 -- Sep '05
+@Rocket 9 Design: Feb '05 -- Sep '05
 
 * Created t-shirts, retooled website, developed direct mail
 
@@ -149,7 +151,7 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 ## Education
-### James Madison U 2004
+@James Madison University: 2004
 
 * B.S. in Studio Art, 3.28 G.P.A.
 
