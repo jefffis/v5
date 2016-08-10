@@ -71,11 +71,20 @@ h1, h2, h3, h4, p {
 	line-height : 0; 
 }*/
 #updates span:nth-child(1) {
-		float : left;
-	}
+	float : left;
+}
 #updates span:nth-child(2) {
 	/*display : inline-block;*/
 	float : right;
+}
+
+@media screen and ( max-width : 500px ) {
+	#updates span:nth-child(1) {
+		float : none;
+	}
+	#updates span:nth-child(2) {
+		display : none;
+	}
 }
 
 .back {
@@ -119,6 +128,58 @@ header img {
 	max-width : 50px;
 	border-radius : 100%;
 }
+nav {
+	padding-top : 2rem;
+	font-size : 16px;
+}
+.sticky {
+	position : fixed;
+	bottom : 0;
+	left : 0;
+	z-index : 2;
+	width : 100%;
+	background : white;
+	padding : 1rem 0;
+	border-top : 1px solid rgba(0, 0, 0, 0.125);
+}
+nav a {
+	color : yellow;
+}
+nav a:active, nav a:focus {
+	opacity : .65;
+}
+nav a:nth-child(n+2) {
+	margin-left : 1rem;
+}
+
+nav em {
+
+}
+
+.sticky span {
+	color : #999;
+}
+.sticky a {
+	color : #4a3e42;
+}
+
+@media screen and ( max-width : 374px ) {
+	nav span {
+		display : none;
+	}
+	nav a:nth-child(n+2) {
+		margin-left : 0;
+	}
+	nav a:nth-child(n+3) {
+		margin-left : 1rem;
+	}
+}
+
+@media screen and ( max-width : 500px ) {
+	.sticky {
+		padding-left : 1.5rem;
+	}
+}
 
 /************
 work
@@ -132,8 +193,9 @@ work
 	font-weight : 400;
 }
 [works] h1:before {
-	content : 'Web: ';
+	content : 'Mobile Web: ';
 	opacity : .35;
+	display : none;
 }
 [works] [coming-soon] h1:before {
 	/*content : 'Coming Soon: ';*/
@@ -169,6 +231,9 @@ work
 [works] p + p {
 	margin-top : 1rem;
 }
+/*[works] img + p {
+	margin-top : 1rem; 
+}*/
 [works] [sig] {
 	text-align : right;
 	margin-top : 2rem;
@@ -243,6 +308,22 @@ work
 	text-decoration : underline;
 	/*border-bottom : 2px solid yellow;*/
 }
+[close] p {
+	margin-bottom : 2rem;
+	text-align : center;
+}
+
+@media screen and ( max-width : 500px ) {
+	[close] {
+		padding : 3rem 1.5rem !important;
+	}
+	[close] p {
+		margin : 2rem 0;
+		padding-left : 0 !important;
+		text-align : left;
+	}
+}
+
 [works] a:active {
 	background : rgba(0,0,0,0.1);
 	color : rgba(255,255,255,0.75);
@@ -257,6 +338,29 @@ work
 }
 article:nth-of-type(n+2) {
 	padding : 1.5rem 0;
+}
+/*article:last-of-type {
+	padding-bottom : 0; 
+}*/
+
+[scroll-more] {
+	position : relative;
+}
+[scroll-more]:after {
+	display : block;
+	position : absolute;
+	top : 100%;
+	left : 50%;
+	z-index : 1;
+	height : 30px;
+	width : 30px;
+	background : white url(../img/arrow-down.png) no-repeat center;
+	background-size : 20px;
+	margin-top : -15px;
+	margin-left : -15px;
+	border-radius : 100%;
+	box-shadow : 0 0 0 1px rgba(0, 0, 0, 0.125);
+	content : "";
 }
 
 [me] h1:before {
@@ -290,12 +394,12 @@ article:nth-of-type(n+2) {
 [yak] h1, [yak] p, [yak] strong {
 	color : #262222;
 }
-[yak] img {
+/*[yak] img {
 	max-width : 350px;
-	/*box-shadow : none !important;
-	border : 0 !important;*/
+	box-shadow : none !important;
+	border : 0 !important;
 	border-radius : 16% !important;
-}
+}*/
 [yak] p {
 	max-width : 350px;
 }
@@ -529,7 +633,7 @@ article:nth-of-type(n+2) {
 }*/
 
 [thoughts] {
-	padding : 0 1.5rem;
+	padding : 3rem 1.5rem;
 }
 article {
 	max-width : 32.5rem;
@@ -610,7 +714,13 @@ article p:before {
 .res-content {
 	margin : 0 auto;
 	max-width : 35rem;
-	padding : 1.5rem 1.5rem 5rem;
+	padding : 6rem 1.5rem 5rem;
+}
+.res-content p a {
+	color : #f35124;
+}
+.res-content p a:active {
+	opacity : .65;
 }
 [resume] h2, [resume] h3 {
 	/*color : #7bc9b6;*/
@@ -626,13 +736,15 @@ article p:before {
 }
 [resume] h3 {
 	color : #666;
+	font-size : 14px;
+	/*font-weight : bold;*/
 }
-[resume] h3:before {
+/*[resume] h3:before {
 	display : inline-block;
 	margin-right : .125rem;
 	color : #ccc;
 	content : "@";
-}
+}*/
 [resume] h3 strong {
 	/*color : #a8e2d4;*/
 	/*color : #4a3e42;*/
@@ -667,9 +779,13 @@ article p:before {
 	content : "Some of my skills to pay those bills:";
 }*/
 [resume] li {
-	color : #999;
+	color : #666;
 	line-height : 1.25;
 	list-style : none;
+}
+[resume] li strong {
+	color : #666;
+	font-weight : normal;
 }
 [resume] li:after {
 	content : ",";
@@ -769,7 +885,7 @@ article p:before {
 }
 
 [works] .lg {
-	padding-left : 1rem;
+	padding-left : 1.25rem;
 }
 
 }

@@ -54,39 +54,56 @@
 
 	    	<img src="img/me.jpg" />
 
+	    	<nav>
+	    		<span>View my:</span>
+	    		<a href="#works">Work</a>
+	    		<a href="#thoughts">Writing</a>
+	    		<a href="#resume">Résumé</a>
+	    	</nav>
+
 	    </header>
 
 	    <div works>
 
-	    	<div work me>
+	    	<div work me scroll-more>
 	    		<h1>I make things for the mobile web and I love HTML email.</h1>
 	    		<p>
 	    			I&rsquo;m a Los Angeles-based <strong>nerd, product designer, front-end tinkerer</strong>, husband and father. I&rsquo;m also a lover of garage rock, Led Zeppelin vinyls, minivans, Tolkien &amp; Discworld, and my collection of colorful pants.
 	    		</p>
 	    		<p>
-	    			Whenever I can, I try to make products that help people do things they easily cannot do otherwise <em>(like my app <a href="#imgRszr">imgRszr</a>)</em>. And designing a product doesn&rsquo;t end when code begins, it&rsquo;s one and the same.
+	    			Whenever I can, I try to make products that help people do things they easily cannot do otherwise <em>(like my app <a href="#imgRszr">imgRszr</a>)</em>.<!--  And designing a product doesn&rsquo;t end when code begins, it&rsquo;s one and the same. -->
 	    		</p>
 	    		<p class="mantra">
 	    			To me, product design is about creating something of value; something actual people will want to use. It&rsquo;s the process of making it better and better everyday. It&rsquo;s learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible. It&rsquo;s also learning how they use your product: on Windows, mobile, low-bandwidth access, etc., and then designing for these scenarios.
 	    		</p>
 	    		<p class="mantra">
-	    			Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product.
+	    			Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product. Let&rsquo;s rather make something with meaning than with beauty.
 	    		</p>
-	    		<p class="mantra">
+	    		<!-- <p class="mantra">
 					Can I help you build better products? <a href="mailto:the.jeffdoan@gmail.com?subject=Come work for us please">Get in touch</a>.
 	    		</p>
-	    		<p>Please check out some of the things <a href="#works">I&rsquo;ve worked on</a> recently, <a href="#thoughts">read some thoughts</a> of mine, check out <a href="#resume">my résumé</a> (as a <a href="jeff-doan-resume.pdf">PDF</a>), <a href="mailto:the.jeffdoan@gmail.com?subject=Come work for us please">email me</a>, or find me on <a href="https://twitter.com/jefffis" target="_blank">Twitter</a>, <a href="https://medium.com/@jefffis">Medium</a>, or on <a href="https://github.com/jefffis">Github</a>.</p>
+	    		<p>Please check out some of the things <a href="#works">I&rsquo;ve worked on</a> recently, <a href="#thoughts">read some thoughts</a> of mine, check out <a href="#resume">my résumé</a> (as a <a href="jeff-doan-resume.pdf">PDF</a>), <a href="mailto:the.jeffdoan@gmail.com?subject=Come work for us please">email me</a>, or find me on <a href="https://twitter.com/jefffis" target="_blank">Twitter</a>, <a href="https://medium.com/@jefffis">Medium</a>, or on <a href="https://github.com/jefffis">Github</a>.</p> -->
 	    		<!-- <p sig><strong>&ndash;Jefff</strong></p> -->
 	    	</div>
 
-	    	<div work white id="works">
+	    </div>
+
+    	<!-- <a href="#" id="works" class="back">Back to top</a> -->
+
+	    <div works id="works">
+
+	    	<div work white scroll-more>
 	    		<h1>Work in progress @ Tradesy</h1>
 	    		<p class="lg">Self-service Overhaul</p>
 	    		<p>
+	    			<strong>The Problem</strong>
+	    			<br />
 	    			Getting help on a website can be overwhelming, and often is an afterthought from a design standpoint. At Tradesy, we knew that our current solution (like so many others) was lacking, as well as it was actually creating a bottle neck for our Member Care Team. 
 	    		</p>
-	    		<p class="highlight">
-	    			We focussed on designing &amp; building a solution that freed up our Member Care agents to help out our members who really had large issues, and to allow our members with small issues to get the help they needed by themselves, and thus get back to more important things in their lives. <strong>I designed and built the front-end, and integrated the API code necessary for this.</strong>
+	    		<p>
+		    		<strong>Our Solution</strong>
+	    			<br />
+	    			We focussed on designing &amp; building a solution that freed up our Member Care agents to help out our members who really had large issues, and to allow our members with small issues to get the help they needed by themselves, and thus get back to more important things in their lives.
 	    		</p>
 	    		<p>
 	    			Using Zendesk&rsquo;s API, we pulled all the content onto our site to create a seamless experience for our members on tradesy.com. If a member is logged in, we can better tailor the types of suggested articles to help them, as well as if they need to contact us, we automatically pass over all the necessary data to our Member Care team without the member needing to do or provide anything else.
@@ -95,20 +112,34 @@
 	    			We also designed and built a new &ldquo;short answer&rdquo; concept that we are truly proud of. A member who has an issue drills down from the new Help homepage into a chosen category, and gets to a list of questions relating to their issue. Inside each question, is a summary of the question (i.e. the short answer), that should be salient enough to answer 99% of our users issues. If it&rsquo;s not, then they can read the full article, or they can then contact us.
 	    		</p>
 	    		<p>
+	    			<strong>What I did</strong>
+	    			<br />
+	    			I designed and built the front-end, and integrated the API code necessary for this.
+	    		</p>
+	    		<p>
 					<a href="https://www.tradesy.com/help" target="_blank">View Self-service</a>
 				</p>
 	    		<p class="lg">Shopping Filters Update
 					<em>On mobile + tablet web</em>
 	    		</p>
 	    		<p>
+		    		<strong>The Problem</strong>
+	    			<br />
 					Filtering to the right set of products on an eCommerce site is so paramount to a shoppers success, and we&rsquo;ve known for a while our current filters don&rsquo;t cut it. There is no way to bulk apply filters: each filter you applied reloads the page. This leads to mass user frustration, and less satisfaction with the results of using our filters. The current filters also lack large, easy tap targets, and suffer from poor UX in general (i.e. using them is confusing and unpredictable).
 				</p>
-				<p class="highlight">
-					We set out to build more intuitive, and more predictable filters to help our members find what they wanted to. The result (not in production yet, but in user-testing) has proven to do just what we wanted it to&mdash;it&rsquo;s allowed our users to, in a stable manner, filter down to the right set of items quicker and easier. <strong>I designed and built the prototype for user-testing.</strong>
+				<p>
+					<strong>Our Solution</strong>
+	    			<br />
+					We set out to build more intuitive, and more predictable filters to help our members find what they wanted to. The result (not in production yet, but in user-testing) has proven to do just what we wanted it to&mdash;it&rsquo;s allowed our users to, in a stable manner, filter down to the right set of items quicker and easier.
 				</p>
 				<p>
 					Along with making the filtering process itself more intuitive, we also looked at the types of filters we have, their existing usage data (to help inform ordering), and how we could improve upon the types of filters available for a given result set.
 				</p>
+				<p>
+	    			<strong>What I did</strong>
+	    			<br />
+	    			I designed and built the prototype, and ran user-testing sessions.
+	    		</p>
 				<p>
 					<a id="filters-link" href="http://wtf.jefff.co/Tradesy-Comps/mobile-filters/iframe.html" target="_blank">View prototype</a>
 				</p>
@@ -132,29 +163,37 @@
 	    	</div>
 
 	    	<!-- work -->
-			<div work yak>
-				<h1>Yak</h1>
-				<img src="img/yak-logo.png" alt="Yak logo" />
+			<div work yak imgs scroll-more>
+				<h1>Yak app</h1>
+				<!-- <img src="img/yak-logo.png" alt="Yak logo" /> -->
+				<img src="img/yak/launch-screen.png" />
+				<img src="img/yak/home-feed--logged-in-with-sub-nav.png" />
+				<img src="img/yak/create-review--submitted.png" />
+				<img src="img/yak/movie--recommended.png" />
+				<img src="img/yak/recommend --sent.png" />
 				<p>Get reviews of books, TV shows, movies and music from friends that help you find what to <strong>love</strong> next.</p>
 				<p>Coming soon to <strong>iOS</strong>.</p>
 			</div>
 			<!--/ work -->
 
 	    	<!-- work -->
-			<div work tradesy imgs>
-				<h1>Tradesy.com</h1>
+			<div work tradesy imgs scroll-more>
+				<h1>Tradesy Mobile Improvements</h1>
 				<img src="img/mobile-logged-out.png" alt="Tradesy mobile logged out screen" />
 				<img src="img/mobile-login.png" alt="Tradesy mobile login screen" />
 				<img src="img/mobile-logged-in.png" alt="Tradesy mobile logged in screen" />
 				<img src="img/mobile-account-management.png" alt="Tradesy mobile account management screen" />
 				<img src="img/mobile-in-app-notifications.png" alt="Tradesy mobile in-app notifications screen" />
-				<p class="lg">💀 to the 🍔.</p>
+				<p class="lg">Death to the 🍔.</p>
 				<p>Used on over 4.6 million visits since we released in August 2015. I killed the off-canvas menu, and simplified the navigation for our mobile users. The result: increased engagement, but more importantly, conversions.</p>
-				<p>I also built a custom registration and login screen to do away with modal windows. These are much more stable and predictable; and lead to better form completion. <em>For the most part, this entaled only chrome edits.</em></p>
+				<p>I built a custom registration and login screen to do away with modal windows. These are much more stable and predictable; and lead to better form completion. <em>For the most part, this entaled only chrome edits.</em></p>
 				<p>
-					Update: I also recently added a new view for accessing your account management, as well as a new view for in-app notifications. Tablet web is also fully supported now, as well.
+					Update: I added a new view for accessing your account management, as well as a new view for in-app notifications. Tablet web is also fully supported now, as well.
 				</p>
-				<p><strong>What I did:</strong> prototyping, design, front-end build, and PHP integration.</p>
+				<p>
+					<strong>What I did:</strong>
+					<br />
+					Prototyping, design, front-end build, and PHP integration.</p>
 				<p>Built for iOS, Android, and Windows platforms.</p>
 				<a href="https://tradesy.com" target="_blank" data-small="Must be on a mobile device">View Mobile Site</a>
 				<small>
@@ -166,8 +205,8 @@
 			<!--/ work -->
 
 			<!-- work -->
-			<div work imgs mobile>
-				<h1>LeagueApps</h1>
+			<div work imgs mobile scroll-more>
+				<h1>LeagueApps Mobile Framework</h1>
 				<img src="img/mobile-logged-out-la.png" alt="LeagueApps mobile logged out screen" />
 				<img src="img/mobile-choose-program-la.png" alt="LeagueApps mobile program select screen" />
 				<img src="img/mobile-signup-la.png" alt="LeagueApps mobile sign up flow" />
@@ -175,26 +214,32 @@
 				<p class="lg">📱 FTW.</p>
 				<p>The LeagueApps platform served over 16 million views in 2014, and 8 million of them were on a mobile device. So, we optimized the templates and assets to give their mobile users the best possible experience.</p>
 				<p>I also built a custom mobile eCommerce feature which allows members to purchase product(s) associated with that program.</p>
-				<p><strong>What I did:</strong> user-research, user-testing, prototyping, design, front-end build, JSP integration.</p>
+				<p>
+					<strong>What I did:</strong>
+					<br />
+					User-research, user-testing, prototyping, design, front-end build, JSP integration.</p>
 				<p>Built for iOS, Android, and Windows platforms.</p>
 				<a href="http://svssc.leagueapps.com/?dar=yes&dart=mobile" target="_blank">View Mobile Site</a>
 			</div>
 			<!--/ work -->
 
 			<!-- work -->
-			<div work email>
-				<h1>LeagueApps Template</h1>
+			<div work email scroll-more>
+				<h1>LeagueApps Email Templates</h1>
 				<img src="img/email.png" alt="LeagueApps Email Template logo" />
 				<p>In 2014, we&rsquo;ve sent over 2.5 million emails.</p>
 				<p>These are all automated, or notification&ndash;based emails, but they contain important information for our customers customers (i.e. the game participants). So, having them look right in all programs was uber important. And, we nailed it. These work in Outlook, Gmail, and everywhere else.</p>
-				<p><strong>What I did:</strong> design, front-end build, Litmus testing.</p>
+				<p>
+					<strong>What I did:</strong>
+					<br />
+					Design, front-end build, Litmus testing.</p>
 				<p>Works in: iOS, Android, Outlook, Gmail and more</p>
 				<a href="email.html">View Email Template</a>
 			</div>
 			<!--/ work -->
 
 			<!-- work -->
-			<div work dads>
+			<div work dads scroll-more>
 				<h1>Dads&rsquo;n&rsquo;Shows</h1>
 				<img src="img/dadsnshows.png" alt="Dads &rsquo;n&rsquo; Shows logo" />
 				<p><strong>We&rsquo;re DC dads that still love shows.</strong></p>
@@ -205,7 +250,7 @@
 			<!--/ work -->
 
 	    	<!-- work -->
-			<div work listeninto>
+			<div work listeninto scroll-more>
 				<h1>Listenin&rsquo; to</h1>
 				<img src="img/listeninto.png" alt="Listenin&rsquo; to logo" />
 				<p><strong>We all have our favorite bands, right? But who are our favorite bands&#58; favorite bands?</strong> Inspired by my passion for music, and the bands I love. I wanted to not only share those bands with others, but also get to know bands that inspire them, as well as bands they might be currently digging. Also built &amp; run on Github Pages.</p>
@@ -215,8 +260,8 @@
 			<!--/ work -->
 	    	
 			<!-- work -->
-			<div work littleonce app>
-				<h1>Littleonce</h1>
+			<div work littleonce app scroll-more>
+				<h1>Littleonce app</h1>
 				<img src="img/littleonce.png" alt="Littleonce logo" />
 				<p><strong>Capture your child&rsquo;s moments everyday, and share them with only who you want to.</strong> Littleonce is a simple, secure, fun daily journaling app for your child. Just take a photo, add a description to preserve the memories forever, and post it; that&rsquo;s all. A Ruby on Rails app, I designed and built the UI &amp; front-end, and did a fair amount of the Rails work, with a bit o&rsquo; help from a friend.</p>
 				<p>Available on: <strong>iOS, Android, Windows, Web</strong></p>
@@ -225,8 +270,8 @@
 			<!--/ work -->
 
 			<!-- work -->
-			<div work play app>
-				<h1>Playsomethin&rsquo;</h1>
+			<div work play app scroll-more>
+				<h1>Playsomethin&rsquo; app</h1>
 				<img src="http://wtf.jefff.co/images/playsomethin.png" alt="Playsomethin&rsquo; logo" />
 				<p><strong>The simple, fun way to find local sports leagues.</strong> With new members registering each day, this is the easiest way to find all the best sports leagues near you whenever you want. Powered by Scala, I designed and built the UI &amp; front-end.</p>
 				<p>Available on: <strong>iOS, Android, Windows, Web</strong></p>
@@ -235,8 +280,8 @@
 			<!--/ work -->
 
 			<!-- work -->
-			<div work img app id="imgRszr">
-				<h1>imgRszr</h1>
+			<div work img app id="imgRszr" scroll-more>
+				<h1>imgRszr app</h1>
 				<img src="img/imgrszr.png" alt="imgRszr logo" />
 				<p><strong>A simple way for non-tech savvy folk to resize and optimize images for use on the web.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did most of the Rails work.</p>
 				<p>Available on: <strong>iOS, Android, Windows, Web</strong></p>
@@ -245,8 +290,8 @@
 			<!--/ work -->
 
 			<!-- work -->
-			<div work contentboard app>
-				<h1>Contentboard</h1>
+			<div work contentboard app scroll-more>
+				<h1>Contentboard app</h1>
 				<img src="img/content.png" alt="Contentboard logo" />
 				<p><strong>A fun, simple way for non-tech savvy folk to create, edit and share content in preparation for the web.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did all the heavy Rails work.</p>
 				<p>Available on: <strong>iOS, Android, Windows, Web</strong></p>
@@ -255,18 +300,18 @@
 			<!--/ work -->
 
 			<!-- work -->
-			<div work tmcrnch>
-				<h1>tmcrnch</h1>
+			<div work tmcrnch scroll-more>
+				<h1>tmcrnch app</h1>
 				<img src="img/tmcrnh.png" alt="Tmcrnch logo" />
-				<p><strong>Send a super short, simple email to up to 3 peeps letting them know you&rsquo;re going to be late.</strong> A PHP + Mandrill app, I designed and built the UI &amp; front-end, and PHP + Sendgrid integration.</p>
+				<p><strong>Send a super short, simple email to up to 3 peeps letting them know you&rsquo;re going to be late.</strong> A PHP app, I designed and built the UI &amp; front-end, and PHP + Sendgrid integration.</p>
 				<p>Available on: <strong>iOS, Android, Windows, Web</strong></p>
 				<!-- <a href="http://tmcrnch.jefff.co/" target="_blank">View tmcrnch</a> -->
 			</div>
 			<!--/ work -->
 
 			<!-- work -->
-			<div work yesno>
-				<h1>yesno</h1>
+			<div work yesno scroll-more>
+				<h1>yesno app</h1>
 				<img src="http://wtf.jefff.co/images/yesno.gif" alt="yesno logo" />
 				<p><strong>A simple app that allows users (without registering/logging in) to vote on yes or no questions.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did all of the Rails work.</p>
 				<p>Available on: <strong>iOS, Android, Windows, Web</strong></p>
@@ -351,9 +396,9 @@
 
 		</div>-->
 
-		<a href="#" class="back">Back to top</a>
+		<!-- <a href="#" id="thoughts" class="back">Back to top</a> -->
 
-		<div id="thoughts" thoughts>
+		<div thoughts id="thoughts" scroll-more>
 
 			<article>
 				<h2>
@@ -551,39 +596,47 @@
 
 		</div>
 
-		<a href="#" class="back more-mar">Back to top</a>
+		<!-- <a href="#" id="resume" class="back more-mar">Back to top</a> -->
 
-		<div id="resume" resume>
+		<div resume id="resume" scroll-more>
 
 			<div class="res-content">
 			
-				<h2>Solving user problems, with business goals in mind, is my forté.</h2>
+				<h2>
+					Design &amp; Development Experience:
+					<!-- <em>(<a href="jeff-doan-resume.pdf">PDF)</em> -->
+				</h2>
+				<p>
+					<a href="jeff-doan-resume.pdf">Download a PDF</a>
+				</p>
 				<ul>
 					<li>
 						<strong>UX design:</strong> research, user testing, sketching &amp; wireframing</li>
 					<li>
 						<strong>UI design:</strong> Sketch/Photoshop, hand-coded prototyping</li>
 					<li>
-						<strong>Front-end:</strong> HTML, CSS &amp; JavaScript (some React)</li>
+						<strong>Front-end:</strong> HTML, CSS (SASS) &amp; JavaScript (some React)</li>
 					<li>
 						<strong>Back-end</strong>: PHP, some Ruby on Rails</li>
 					<li>
 						<strong>HTML email:</strong> design, build &amp; testing</li>
 					<li>
-						git &amp; markdown</li>
+						git, build tools, markdown, CLI, Heroku</li>
 					<li>
 						web performance</li>
+					<li>
+						mobile-first design, responsive / RESS design</li>
 					<li>
 						Jekyll &amp; Wordpress</li>
 					<li>
 						SaaS marketing &amp; design</li>
-					<li>
-						Print design</li>
+					<!-- <li>
+						Print design</li> -->
 					<li>
 						Being a music snob &amp; hating on Facebook</li>
 				</ul>
 				<h2>Product Designer</h2>
-				<h3>Tradesy <strong>Jan &lsquo;15&ndash;present</strong></h3>
+				<h3>Tradesy, <em>from January 2015 until now</em></h3>
 				<ul>
 					<li><strong>Mobile web navigation</strong>: redesigned and built new navigation to kill the 🍔&mdash;led to deeper, longer site sessions</li>
 					<li><strong>Mobile + tablet signup / login</strong>: redesigned and built new pattern for simpler use&mdash;led to more conversions</li>
@@ -597,7 +650,7 @@
 					<li>Designed &amp; built personalized mobile web <a id="homepage-link" href="http://www.responsinator.com/?url=http%3A%2F%2Fwtf.jefff.co%2FTradesy-Comps%2Fm%2Fh%2F" target="_blank">homepage concept</a></li>
 				</ul>
 				<h2>Lead UI/UX Designer</h2>
-				<h3>LeagueApps <strong>Sep &lsquo;13&ndash;Dec &lsquo;13</strong></h3>
+				<h3>LeagueApps, <em>from Septemper 2013 until December 2013</em></h3>
 				<ul>
 					<li>The whole shebang: stakeholder interviews, user testing, usability testing, wireframing, UX &amp; UI design, front-end build &amp;s JSP integration</li>
 					<li>Designed and built front-end mobile framework for LeagueApps-powered sites (16m+ uniques / year</strong> and growing)&mdash;works on iOS, Android and Windows</li>
@@ -605,7 +658,7 @@
 					<li>Redesigning the leagueapps.com marketing site to improve conversions for our unique marketshare&mdash;<strong>rethinking how the SaaS platform sales cycle should be presented</strong> to prospects</li>
 				</ul>
 				<h2>CSS Developer</h2>
-				<h3>nclud <strong>July &lsquo;11&ndash;Sep &lsquo;13</strong></h3>
+				<h3>nclud, <em>from July 2011 until Septebmer 2013</em></h3>
 				<ul>
 					<li>Developed <strong>usable, optimized, speedy websites</strong> for multiple clients&mdash;[some design], front-end coding &amp; templates for Ruby on Rails / Java / WordPress / ExpressionEngine / Codeigniter CMS integrations</li>
 					<li>Designed/built <strong>Facebook apps</strong></li>
@@ -614,8 +667,8 @@
 					<li>Created <strong>HTML prototypes</strong> / for IA testing</li>
 					<li>Spoke &amp; didn&rsquo;t voice crack at multiple events</li>
 				</ul>
-				<h2>Sr. Interactive Designer</h2>
-				<h3>Thinkdesign <strong>Feb &lsquo;10&ndash;July &lsquo;11</strong></h3>
+				<h2>Senior Interactive Designer</h2>
+				<h3>Thinkdesign, <em>from February 2010 until July 2011</em></h3>
 				<ul>
 					<li>Developed <strong>usable, optimized websites</strong> for multiple clients&mdash;<strong>wireframing, design, front-end coding, and CMS integrations</strong></li>
 					<li>Designed and developed <strong>HTML emails</strong> for national / international campaigns&mdash;wireframing, design, coding, and testing</li>
@@ -623,7 +676,7 @@
 					<li>Created and implemented client PPC campaigns</li>
 				</ul>
 				<h2>eMarketing Manager</h2>
-				<h3>Marketing General Inc. <strong>Apr &lsquo;08&ndash;Feb &lsquo;10</strong></h3>
+				<h3>MGI, <em>from April 2008 until February 2010</em></h3>
 				<ul>
 					<li>Developed <strong>micro-sites</strong> for national campaigns&mdash;design, wireframing, and front-end coding</li>
 					<li>Developed HTML emails for national / international campaigns&mdash;wireframing, design, coding, and testing</li>
@@ -631,27 +684,27 @@
 					<li>Designed banner ads via <strong>animated gifs before it was cool</strong></li>
 					<li>Managed team with senior developer</li>
 				</ul>
-				<h2>Sr. Designer</h2>
-				<h3>Healthy Back Store <strong>Feb &lsquo;05&ndash;Apr &lsquo;08</strong></h3>
+				<h2>Designer</h2>
+				<h3>Healthy Back Store, <em>from February 2005 until April 2008</em></h3>
 				<ul>
 					<li>Developed direct mail for national campaigns</li>
 					<li>Designed ROP for national newspaper &amp; magazine publications such as <em>The Washington Post</em>, <em>The San Diego Tribune</em>, <em>The Wall Street Journal</em>, and <em>The Boston Globe</em></li>
 					<li>Worked closely with vendors managing multiple print jobs</li>
 					<li>Managed team with junior designer</li>
 				</ul>
-				<h2>Jr. Web Designer</h2>
-				<h3>Sit4Less.com <strong>Feb &lsquo;05&ndash;Apr &lsquo;08</strong></h3>
+				<h2>Junior Web Designer</h2>
+				<h3>Sit4Less.com, <em>from February 2005 until April 2008</em></strong></h3>
 				<ul>
 					<li>Developed email and banner ads for national campaigns&mdash;wireframing, design, coding, and testing</li>
 					<li>Developed landing pages for national and local campaigns</li>
 				</ul>
-				<h2>Jr. Graphic Designer</h2>
-				<h3>Rocket 9 Design <strong>Feb &lsquo;05&ndash;Sep &lsquo;05</strong></h3>
+				<h2>Junior Graphic Designer</h2>
+				<h3>Rocket 9 Design, from February 2005 until September 2005</em></strong></h3>
 				<ul>
 					<li>Created t-shirts, retooled website, developed direct mail</li>
 				</ul>
 				<h2>Education</h2>
-				<h3>James Madison U. <strong>2004</strong></h3>
+				<h3>James Madison U., <em>graduated May 2004</em></h3>
 				<ul>
 					<li>B.S. in <strong>Studio Art</strong>, 3.28 G.P.A.</li>
 				</ul>
@@ -660,11 +713,21 @@
 			</div>
 		</div>
 
-		<p class="centered">
-			&copy; 1981&mdash;now 
-		</p>
+		<div works>
+			<div work me close scroll-more>
+				<h2>
+					Can I help you build better products? <a href="mailto:the.jeffdoan@gmail.com?subject=Come work for us please">Get in touch</a>.
+	    		</h2>
+	    		<p>
+	    			I&rsquo;m on <a href="https://twitter.com/jefffis" target="_blank">Twitter</a>, <a href="https://medium.com/@jefffis">Medium</a>, and <a href="https://github.com/jefffis">Github</a>.</p>
+			</div>
+		</div>
 
-		<a href="#" class="back">Back to top</a>
+		<!-- <p class="centered">
+			&copy; 1981&mdash;now 
+		</p> -->
+
+		<!-- <a href="#" class="back">Back to top</a> -->
 
 		<!-- <script src="js/echo.js"></script>
 		<script>
@@ -679,6 +742,7 @@
 			});
 		</script> -->
 
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script>
 			var isMobile = {
 				Android: function() {
@@ -698,6 +762,25 @@
 				document.getElementById('filters-link').href = 'http://wtf.jefff.co/Tradesy-Comps/mobile-filters/';
 				document.getElementById('homepage-link').href = 'http://wtf.jefff.co/Tradesy-Comps/m/h/';
 			}
+			$(function(){
+			    var nav = $('nav'),
+			    	navHeight = nav.outerHeight(),
+			    	works = $('#works'),
+			    	worksH1 = works.find('h1'),
+			    	worksPosTop = works.offset().top,
+			    	win = $(window);
+			    
+			    win.scroll(function(e){
+			        var scrollTop = win.scrollTop();
+			        if(scrollTop >= worksPosTop) {
+			            nav.addClass('sticky');
+			            worksH1.css('padding-top', navHeight);
+			        }else{
+			        	nav.removeClass('sticky');
+			        	worksH1.css('padding-top', 0);
+			        }
+			    });
+			});
 		</script>
 
     </body>
