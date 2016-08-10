@@ -170,7 +170,7 @@ nav em {
 	color : #4a3e42;
 }
 
-@media screen and ( max-width : 374px ) {
+@media screen and ( max-width : 500px ) {
 	nav span {
 		display : none;
 	}
@@ -754,6 +754,12 @@ article p:before {
 	color : #4a3e42;
 	font-size : 20px;
 	font-style : italic;
+}
+
+@media screen and ( max-width : 500px ) {
+	.res-content p:first-of-type {
+		margin-left : -.25rem;
+	}
 }
 
 @media screen and ( min-width : 900px ) {
