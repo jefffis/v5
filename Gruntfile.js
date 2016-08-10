@@ -34,7 +34,7 @@ module.exports= function(grunt){
 					'dest': 'stylesheets/<%= pkg.file_name %>.min.css'
 				}]
 			}
-		}/*,
+		},/*
 
 		watch: {
 			scripts: {
@@ -45,16 +45,29 @@ module.exports= function(grunt){
             }
 		}*/
 
+		'htmlmin': {                                     // Task
+			dist: {                                      // Target
+				options: {                                 // Target options
+					removeComments: true,
+					collapseWhitespace: true
+				},
+				files: {                                   // Dictionary of files
+					'index.html': 'index-original.html',     // 'destination': 'source'
+				}
+			}
+		}
+
 	});
 
 	//grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-yui-compressor');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 	// grunt.registerTask('w',['watch']);
 
 	//grunt.registerTask('default', ['sass','min','cssmin']);
 
-	grunt.registerTask('default', ['cssmin']);
+	grunt.registerTask('default', ['cssmin', 'htmlmin']);
 
 }

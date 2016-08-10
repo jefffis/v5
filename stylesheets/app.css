@@ -398,8 +398,8 @@ article:nth-of-type(n+2) {
 [yak] h1:before {
 	content : "App: ";
 }
-[yak] h1, [yak] p, [yak] strong {
-	color : #262222;
+[yak] h1, [yak] p, [yak] strong, [yak] p.lg {
+	color : #3C2501;
 }
 /*[yak] img {
 	max-width : 350px;
@@ -407,14 +407,14 @@ article:nth-of-type(n+2) {
 	border : 0 !important;
 	border-radius : 16% !important;
 }*/
-[yak] p {
+/*[yak] p {
 	max-width : 350px;
-}
-@media screen and ( max-width : 351px ) {
+}*/
+/*@media screen and ( max-width : 351px ) {
 	[yak] p {
 		margin-left : 0;
 	}
-}
+}*/
 /*[dads] img {
 	background : #9de0ad;
 }*/
