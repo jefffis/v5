@@ -105,6 +105,13 @@ h1, h2, h3, h4, p {
 	margin : 3rem 0;
 }
 
+img {
+	background : white url(../img/lodr.gif) no-repeat center;
+}
+.loaded {
+	background : none;
+}
+
 /************
 header
 ************/
