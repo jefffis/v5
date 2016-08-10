@@ -138,17 +138,38 @@
 				</p>
 	    		<p class="lg">Promoted Listings</p>
 	    		<p>
-	    			For large marketplaces, it&rsquo;s common to eventually introduce ways for sellers willing to spend a bit more, to get more out of the marketplace. We felt that in 2016, given our current size, scale and traffic of daily sellers, it was the rigth time for us to do this with Promoted Listings. Still in development, we&rsquo;ve put a lot of thought and effort into designing an advertising system that would help all our sellers succeed. On Tradesy, we have all types of sellers: pro-sellers, power sellers, and casual sellers. We wanted to build something that all our sellers, if they chose to participate in, could find success with.
+		    		<strong>The Problem</strong>
+	    			<br />
+	    			Start-ups struggle to generate extra revene outside of their original business models. For large marketplaces, it&rsquo;s common to eventually introduce ways for sellers willing to spend a bit more, to get more out of the marketplace. We felt that in 2016, given our current size, scale and traffic of daily sellers, it was the rigth time for us to do this with Promoted Listings.
 	    		</p>
-	    		<p class="highlight">
+	    		<p>
+					<strong>Our Solution</strong>
+	    			<br />
+	    			Still in development, we&rsquo;ve put a lot of thought and effort into designing an advertising system that would help all our sellers succeed. On Tradesy, we have all types of sellers: pro-sellers, power sellers, and casual sellers. We wanted to build something that all our sellers, if they chose to participate in, could find success with.
+	    		</p>
+	    		<p>
+	    			<strong>What I did</strong>
+	    			<br />
 	    			An ongoing effort that I researched and worked on initial designs / front-end builds for.
 	    		</p>
 	    		<p class="lg">Transactional Email Standards</p>
 	    		<p>
-	    			Email, even in 2016, is still so important to a business. Transactional emails are often overlooked, or are considered outside the normal scope of design standards. We decided to use system fonts, to best optimize these emails based on the OS. These emails work and look great in all clients: Outlook, Gmail (yes, even Gmail for mobile), and everywhere else.
+		    		<strong>The Problem</strong>
+	    			<br />
+	    			Email, even in 2016, is still so important to a business. Transactional emails are often overlooked, or are considered outside the normal scope of design standards. From inconsistent type treatments, random item cards, to different footers; we needed a holistic approach to bring our email branding full circle.
 	    		</p>
-	    		<p class="highlight">
-	    			An ongoing effort that I researched and worked on initial designs / front-end builds for.
+	    		<p>
+					<strong>Our Solution</strong>
+	    			<br />
+	    			We started by looking at our two main member flows: buying an item and selling an item. From this we were able to identify all the types of modules that could be used in a transactional. We chose to use system fonts so that we could allow the operating system to best optimize these (even in 2016 custom fonts in emails are not very well supported). We then moved all content to a single column format, to allow for easiest readability and maintenance of the templates.
+	    		</p>
+	    		<p>
+		    		These emails work and look great in all clients: Outlook, Gmail (yes, even Gmail for mobile), and everywhere in-between.
+		    	</p>
+	    		<p>
+	    			<strong>What I did</strong>
+	    			<br />
+	    			An ongoing effort that I researched and worked on initial designs / front-end builds for. I also built and tested the template for proper support in all major email clients.
 	    		</p>
 	    		<p>
 	    			<a href="https://rawgit.com/jefffis/tradesy-emails/gh-pages/project-autoresponder/new-templates/index.html" target="_blank">View prototype</a>
@@ -693,6 +714,7 @@
 			$(function(){
 			    var nav = $('nav'),
 			    	navHeight = nav.outerHeight(),
+			    	navLink = nav.find('a'),
 			    	works = $('#works'),
 			    	worksH1 = works.find('h1'),
 			    	worksPosTop = works.offset().top,
@@ -708,6 +730,14 @@
 			        	worksH1.css('padding-top', 0);
 			        }
 			    });
+
+			    navLink.on('click', function(e) {
+			    	var linkId = $(this).attr('href'),
+			    		idOffset = $(linkId).offset().top;
+			    	e.preventDefault();
+
+			    	window.scroll(0, idOffset);
+			    })
 			});
 		</script>
 
