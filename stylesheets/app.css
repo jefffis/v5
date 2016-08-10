@@ -700,11 +700,11 @@ article p:before {
 }
 
 /*** resume ***/
-/*[resume] {
-	border-top : 2px solid #ddd;
-	margin-top : 3rem;
-	padding-top : 3rem;
-}*/
+[resume] {
+	border-top : 1px solid #ddd;
+	/*margin-top : 3rem;
+	padding-top : 3rem;*/
+}
 .mustachio img {
 	display : block;
 	margin : 0 auto;
