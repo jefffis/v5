@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 300;
@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Oxygen Bold'), local('Oxygen-Bold'), url(https://fonts.gstatic.com/s/oxygen/v5/yVHpdQrmTj9Kax1tmFSx2rO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}*/
+}
 
 .cf:before,
 .cf:after {
@@ -30,6 +30,9 @@
 html, body {
 	font : normal 100%/1.5 'Helvetica Neue', Arial, sans-serif;
 	color : #666;
+}
+html.fonts-loaded, .fonts-loaded body {
+	font-family : 'Oxygen';
 }
 strong {
 	color : #040407;

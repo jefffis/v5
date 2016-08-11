@@ -4,7 +4,7 @@ module.exports= function(grunt){
 
 		pkg: grunt.file.readJSON('package.json'),
 
-		/*sass: {
+		sass: {
 			dist: {
                 files: {
                     'stylesheets/<%= pkg.file_name %>.css': 'stylesheets/sass/*.scss'
@@ -18,11 +18,11 @@ module.exports= function(grunt){
 					'report': false
 				},
 				'files': [{
-					'src': ['javascripts/jquery.js','javascripts/app.js'],
-					'dest': 'javascripts/<%= pkg.file_name %>.min.js'
+					'src': ['js/echo.js','js/font.js'],
+					'dest': 'js/app.js'
 				}]
 			}
-		},*/
+		},
 
 		'cssmin': {
 			'dist': {
@@ -69,6 +69,6 @@ module.exports= function(grunt){
 
 	//grunt.registerTask('default', ['sass','min','cssmin']);
 
-	grunt.registerTask('default', ['cssmin', 'htmlmin']);
+	grunt.registerTask('default', ['min', 'cssmin', 'htmlmin']);
 
 }
