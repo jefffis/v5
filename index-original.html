@@ -712,7 +712,6 @@
 		</div>
 
 		<script src="js/app.js" async></script>
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script>
 			var isMobile = {
 				Android: function() {
@@ -732,35 +731,6 @@
 				document.getElementById('filters-link').href = 'http://wtf.jefff.co/Tradesy-Comps/mobile-filters/';
 				document.getElementById('homepage-link').href = 'http://wtf.jefff.co/Tradesy-Comps/m/h/';
 			}
-			$(function(){
-			    var header = $('h2', 'header'),
-				    nav = $('nav'),
-			    	navHeight = nav.outerHeight(),
-			    	navLink = nav.find('a'),
-			    	works = $('#works'),
-			    	// worksH1 = works.find('h1'),
-			    	worksPosTop = works.offset().top - 100,
-			    	win = $(window);
-			    
-			    win.scroll(function(e){
-			        var scrollTop = win.scrollTop();
-			        if(scrollTop >= worksPosTop) {
-			            nav.addClass('sticky');
-			            header.css('padding-bottom', navHeight);
-			        }else{
-			        	nav.removeClass('sticky');
-			        	header.css('padding-bottom', 0);
-			        }
-			    });
-
-			    navLink.on('click', function(e) {
-			    	var linkId = $(this).attr('href'),
-			    		idOffset = $(linkId).offset().top;
-			    	e.preventDefault();
-
-			    	window.scroll(0, idOffset);
-			    })
-			});
 		</script>
 
     </body>
