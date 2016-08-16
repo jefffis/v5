@@ -603,6 +603,7 @@ article:nth-of-type(n+2) {
 [works] .wht-img-wrapper img,
 [works] .blk-img-wrapper img {
 	display : block;
+	background-color : transparent;
 	padding : 20px 0;
 	border-radius : 0;
 	border : 0;
