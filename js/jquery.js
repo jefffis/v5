@@ -10,7 +10,7 @@ $(function(){
         navLink = nav.find('a'),
         works = $('#works'),
         // worksH1 = works.find('h1'),
-        worksPosTop = works.offset().top - 100,
+        worksPosTop = works.offset().top + 300,
         win = $(window);
     
     win.scroll(function(e){

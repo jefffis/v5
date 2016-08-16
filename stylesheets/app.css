@@ -585,7 +585,8 @@ article:nth-of-type(n+2) {
 	margin-top : 3rem;
 }
 [white] img {
-	padding : 100px;
+	padding : 50px 100px 0;
+	border : 0 !important;
 }
 [white] .highlight {
 	border-left: 5px solid #ddd;
@@ -594,7 +595,7 @@ article:nth-of-type(n+2) {
 
 @media screen and ( max-width : 500px ) {
 	[white] img {
-		padding : 50px;
+		padding : 30px 10px 0;
 	}
 	[white] p.lg {
 		padding-left : 1.5rem;
