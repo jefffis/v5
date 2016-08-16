@@ -291,6 +291,11 @@ work
 	display : block;
 	margin-top : 4.5rem;
 }
+
+[white] small {
+	margin-top : 1.5rem;
+}
+
 [works] small a {
 	display : inline;
 	background : none;
@@ -584,19 +589,37 @@ article:nth-of-type(n+2) {
 [white] p + p.lg {
 	margin-top : 3rem;
 }
-[white] img {
+/*[white] img {
 	padding : 50px 100px 0;
 	border : 0 !important;
+}*/
+.wht-img-wrapper {
+	background : #f8f8f8;
+}
+.blk-img-wrapper {
+	background : #111;
+	margin-bottom : -20px;
+}
+[works] .wht-img-wrapper img,
+[works] .blk-img-wrapper img {
+	display : block;
+	padding : 20px 0;
+	border-radius : 0;
+	border : 0;
+	box-shadow : none;
+}
+[works] .blk-img-wrapper img {
+	padding : 10px 0 0;
 }
 [white] .highlight {
 	border-left: 5px solid #ddd;
 	font-style : italic;
 }
 
-@media screen and ( max-width : 500px ) {
-	[white] img {
+@media screen and ( max-width : 800px ) {
+	/*[white] img {
 		padding : 30px 10px 0;
-	}
+	}*/
 	[white] p.lg {
 		padding-left : 1.5rem;
 	}
@@ -946,6 +969,9 @@ article h2, [resume] h2 {
 [works] small {
 	padding : 0 1.85rem;
 	font-size : 14px;
+}
+[white] small {
+	padding : 0 1.25rem;
 }
 [works] small a {
 	margin : 0;
