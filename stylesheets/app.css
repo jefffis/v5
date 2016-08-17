@@ -358,6 +358,25 @@ article:nth-of-type(n+2) {
 	padding-bottom : 0; 
 }*/
 
+[pink] {
+	background: #FA89F8;
+	border-bottom : 1px solid rgba(0, 0, 0, 0.125);
+}
+[pink] p {
+	margin : 2rem auto !important;
+	color : white !important;
+	text-align : center !important;
+}
+[pink] a {
+	margin : 0 15px 15px !important;
+	padding: .5rem 1rem;
+}
+@media screen and ( max-width : 600px ) {
+	[pink] div {
+		padding : 0 1rem;
+	}
+}
+
 [scroll-more] {
 	position : relative;
 }
