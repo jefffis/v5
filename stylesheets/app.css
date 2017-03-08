@@ -759,6 +759,11 @@ article p:before {
 	/*margin-top : 3rem;
 	padding-top : 3rem;*/
 }
+#resume small {
+	display: block;
+	margin-bottom: 1.5rem;
+	font-style: italic;
+}
 .mustachio img {
 	display : block;
 	margin : 0 auto;
