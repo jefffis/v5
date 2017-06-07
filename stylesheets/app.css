@@ -429,6 +429,10 @@ article:nth-of-type(n+2) {
 	color : #3C2501;
 }
 
+[betalist] {
+	background: #05b2e0;
+}
+
 [dv] {
 	background : #69bbc0;
 }
