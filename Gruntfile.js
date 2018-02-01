@@ -1,5 +1,5 @@
 module.exports= function(grunt){
-	
+
 	grunt.initConfig({
 
 		pkg: grunt.file.readJSON('package.json'),
@@ -18,7 +18,8 @@ module.exports= function(grunt){
 					'report': false
 				},
 				'files': [{
-					'src': ['js/echo.js','js/font.js','js/jquery.js'],
+					// 'src': ['js/echo.js','js/font.js','js/jquery.js'],
+					'src': ['js/echo.js','js/jquery.js'],
 					'dest': 'js/app.js'
 				}]
 			}
