@@ -10,13 +10,16 @@
 
 
 # A bit about me
-I make things for the mobile web, and I love HTML email. I'm a Los Angeles-based nerd, product designer, front-end tinkerer, husband and father. Whenever I can, I try to make products that help people do things they easily cannot do otherwise.
+I make things for the mobile web, and I love HTML email. I’m a Los Angeles-based nerd, product designer, front-end tinkerer, husband and father. Whenever I can, I try to make products that help people do things they cannot easily do otherwise. I have 12+ years of UX/UI design, front-end (HTML, CSS & JavaScript) experience, and am dangerous enough when it comes to Ruby/Rails and PHP.
 
 ~~~~~~~~~~~~~~
 
-To me, product design is about creating something of value; something actual people will want to use. It's the process of making it better and better everyday. It's learning what your users do, where they struggle, why they struggle, and how to alleviate those struggles, where possible. It's also learning how they use your product: on Windows, mobile, low-bandwidth access, etc., and then designing for these scenarios.
+About creating something of value; something actual people will want to use. It’s the process of making the product better and better everyday. It’s learning what your users are doing, where they
+struggle, why they are struggling, and how to alleviate those struggles, where possible. It’s also learning how they use your product: on Windows, mobile, low-bandwidth access, etc., and then
+designing for these scenarios.
 
-Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about a product.
+Product design is almost never about making beautiful things. The word beautiful permeates the digital product world far too often; and it does nothing to help anyone derive significant value about
+a product. Let’s rather make something with meaning than with beauty.
 
 Can I help you build better products? Get in touch, the.jeffdoan@gmail.com, if so.
 
@@ -24,54 +27,93 @@ Can I help you build better products? Get in touch, the.jeffdoan@gmail.com, if s
 
 Solving user problems, with business goals in mind, is my bag. Below are some of my skills & resume:
 
-* UX design: research, user testing, sketching & wireframing
-* UI design: Sketch/Photoshop, hand-coded prototyping
-* Front-end: HTML, CSS & JavaScript (some React)
-* Back-end: PHP, some Ruby/Rails
-* HTML email: design, build & testing
-* git & markdown
-* Jekyll & Wordpress
-* SaaS marketing & design
-* Being a music snob & hating on Facebook
+- Product concept & strategy
+- Customer Onboarding & Jobs-to-be-Done
+- UX design
+  research, user testing, sketching, wireframing
+- UI design
+  Sketch/Photoshop/InVision, hand-coded prototyping
+- Front-end
+  HTML, CSS (SASS), JavaScript (some React & Vue)
+- Back-end
+  PHP, some Ruby/Rails, Jekyll, Wordpress
+- HTML email
+  design, build & testing
+- Mailchimp, Litmus, Sendgrid, and Mandrill
+- mobile-first design, responsive / RESS design
+- git, build tools, markdown, CLI, Heroku
+- web performance & SEO
+- Analytics & A/B testing
+  Google Analytics, Tableau, Amplitude, Mixpanel, Optimizely
+- agile, scrum, and waterfall
+- print design, InDesign
+
+
+--------
+
+
+## Senior Product Designer
+SimplePractice, from July 2017 until present
+- Customer Onboarding: increased paid activation rate by 25%
+- a mishmash of making the experience better while maintaining key business goals
+- helping define product strategy, writing user stories, and leading UX research
+
+
+--------
+
+
+## Senior UX/UI Designer
+DogVacay, from October 2016 until July 2017 (acquired by Rover in July 2017)
+- Host application flow: reduce UI clutter and focus on conversion goals
+led to an increase in high quality hosts and conversion
+- Checkout optimizations: simplify UI, reduce confusion by re-ordering form fields
+led to an increase conversions
+- New vertical work: researching, prototyping and building custom flows for expanding revenue
+- Mobile search result optimizations: add distance from Host & sort filters based on impact
+led to an increase conversions
+- Host review optimizations: simplify UI, clarify public VS private feedback
+led to an increase granular reviews (ongoing)
+- Search filter persistence: when a guest enters filter criteria, this persists until they change it (even
+on subsequent site visits)
+led to an increase in engagement and conversion
+- Desktop geolocation: get specific lat/long of desktop users for better search results
+led to an increase in conversion
 
 
 --------
 
 
 ## Product Designer
-@Tradesy: Jan '15 -- present
-
-* Mobile web navigation: redesigned and built new navigation to kill the hamburger menu
-  - led to deeper, longer site sessions
-* Mobile + tablet signup / login: redesigned and built new pattern for simpler use
-  - led to more conversions
-* Self-service: researched, designed and built custom Zendesk integration on tradesy.com via their API
-  - freed up Member Care team to tackle bigger member issues
-* Mobile + tablet shopping filters: researched, designed and built new filter patterns
-* Promoted Listings: researched, designed, and prototyped first non-commission revenue stream
-  - ongoing effort
-* In-app Notifications: designed and built framework for system in-app notifications
-* Cookie consolidation: built name/key object cookie support to reduce the number of cookies we use overall
-* Performance improvements: across the board
-  - HTML, CSS and image optimization strategies
-* Built personalized email recommendations template / custom image gallery email
-* Designed & built personalized mobile web homepage concept
+Tradesy, from January 2015 until August 2016*
+- Mobile web navigation: redesigned and built new navigation to kill the hamburger menu
+  led to deeper, longer site sessions
+- Mobile + tablet signup / login: redesigned and built new pattern for simpler use
+  led to more conversions
+- Self-service: researched, designed & built custom Zendesk integration on tradesy.com via their API
+  freed up Member Care team to tackle bigger member issues
+- Mobile + tablet shopping filters: researched, designed and built new filter patterns
+- Promoted Listings: researched, designed, and prototyped first non-commission revenue stream, an ongoing effort
+- In-app Notifications: designed and built framework for system in-app notifications
+- Cookie consolidation: built name/key object cookie support to reduce the number of cookies we use overall
+- Built JavaScript controller to handle all inline form validations
+- Performance improvements: across the board
+  HTML, CSS and image optimization strategies
+- Built personalized email recommendations template / custom image gallery email
+- Designed & built personalized mobile web homepage concept
+* Tradesy laid off ~20 employees in August due to financial issues, not for performance
 
 
 --------
 
-
-## Lead UI/UX Designer
-@LeagueApps: Sep '13 -- Dec '13
-
-* The whole shebang: stakeholder interviews, user testing, usability testing, wireframing, UX & UI design, front-end build &s JSP integration
-* Designed and built front-end mobile framework for LeagueApps-powered sites (16m+ uniques / year and growing)
-  - works on iOS, Android and Windows
-* Designed and built LeagueApps-sent emails
-  - work in all email clients & Gmail on mobile
-* Redesigned the leagueapps.com marketing site to improve conversions for our unique marketshare
-  - rethinking how the SaaS platform sales cycle should be presented to prospects (not launched before I transitioned)
-
+## Lead UX/UI Designer
+LeagueApps, from September 2013 until January 2015
+- The whole shebang: stakeholder interviews, user testing, usability testing, wireframing, UX & UI design, front-end build & JSP integration
+- Designed and built front-end mobile framework for LeagueApps-powered sites (16m+ uniques per year and growing)
+  works on iOS, Android and Windows
+- Designed and built LeagueApps-sent emails
+  works in all email clients & Gmail on mobile
+- Redesigned the leagueapps.com marketing site to improve conversions
+  rethinking how the SaaS platform sales cycle should be presented (not launched before I left)
 
 --------
 
@@ -162,5 +204,3 @@ Solving user problems, with business goals in mind, is my bag. Below are some of
 
 
 If you're so inclined, find more about me here (http://hire.jefff.co), email me (the.jeffdoan@gmail.com), or follow me on Twitter (https://twitter.com/jefffis), Medium (https://medium.com/@jefffis), or on Github (https://github.com/@jefffis).
-
-<3
