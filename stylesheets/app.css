@@ -433,6 +433,18 @@ article:nth-of-type(n+2) {
 	background: #05b2e0;
 }
 
+[saas-weekly] {
+	background: #AA3EFB;
+	color: white;
+}
+[saas-weekly] p, [saas-weekly] strong {
+	color: white;
+}
+[saas-weekly] a {
+	background: white;
+	color: #AA3EFB;
+}
+
 [dv] {
 	background : #69bbc0;
 }
