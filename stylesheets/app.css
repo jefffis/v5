@@ -445,6 +445,18 @@ article:nth-of-type(n+2) {
 	color: #AA3EFB;
 }
 
+[findnewsletters] {
+	background: #02EBBB;
+	color: #010E22;
+}
+[findnewsletters] p, [findnewsletters] strong {
+	color: #010E22;
+}
+[findnewsletters] a {
+	background: #0693FF;
+	color: white;
+}
+
 [dv] {
 	background : #69bbc0;
 }
