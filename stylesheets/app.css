@@ -437,7 +437,7 @@ article:nth-of-type(n+2) {
 	background: #AA3EFB;
 	color: white;
 }
-[saas-weekly] p, [saas-weekly] strong {
+[saas-weekly] strong {
 	color: white;
 }
 [saas-weekly] a {
@@ -449,7 +449,10 @@ article:nth-of-type(n+2) {
 	background: #02EBBB;
 	color: #010E22;
 }
-[findnewsletters] p, [findnewsletters] strong {
+[findnewsletters] p {
+	color: rgba(0, 0, 0, .5);
+}
+[findnewsletters] strong {
 	color: #010E22;
 }
 [findnewsletters] a {
