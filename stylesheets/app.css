@@ -28,7 +28,7 @@
 	-webkit-tap-highlight-color : rgba(0,0,0,0);
 }
 html, body {
-	font : normal 100%/1.5 -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font : normal 17px/1.5 -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color : #666;
 }
 /*html.fonts-loaded, .fonts-loaded body {
@@ -65,6 +65,9 @@ h1, h2, h3, h4, p {
 }
 #updates a:active {
 	opacity : .5;
+}
+a:hover {
+	text-decoration: none;
 }
 /*#updates span {
 	position : relative;
@@ -140,7 +143,7 @@ header img {
 }
 nav {
 	padding-top : 2rem;
-	font-size : 16px;
+	/*font-size : 16px;*/
 }
 .sticky {
 	position : fixed;
@@ -225,18 +228,18 @@ work
 }
 [works] p {
 	padding : 0 1.5rem;
-	font-size : 1.1rem;
-	max-width : 30rem;
+	/*font-size : 1.1rem;*/
+	max-width : 32.5rem;
 	margin : 3rem auto 0;
 	text-align : left;
 	color : rgba(255,255,255,0.75);
 }
 
-@media screen and ( max-width : 500px ) {
+/*@media screen and ( max-width : 500px ) {
 	[works] p, article p {
 		font-size: 15px;
 	}
-}
+}*/
 
 [works] p + p {
 	margin-top : 1rem;
@@ -407,6 +410,12 @@ article:nth-of-type(n+2) {
 	color : yellow;
 	font-weight : normal;
 }
+[me] h2 {
+	font-weight : normal;
+}
+[me] a:hover {
+	text-decoration: none;
+}
 [tradesy] {
 	background : #2a2a2a;
 }
@@ -443,6 +452,11 @@ article:nth-of-type(n+2) {
 [saas-weekly] a {
 	background: white;
 	color: #AA3EFB;
+}
+
+[systemic] {
+	background: #BB15D8;
+  background: linear-gradient(45deg, #BB15D8 0%,#8509B0 100%);
 }
 
 [findnewsletters] {
