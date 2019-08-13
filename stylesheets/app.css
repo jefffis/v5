@@ -987,7 +987,7 @@ article p:before {
 }
 [works] .lg {
 	/*max-width : 474px;*/
-	padding : 0 1rem .5rem;
+	padding-bottom : 1rem;
 	/*border-bottom : 2px solid rgba(0, 0, 0, 0.15);*/
 	font-size : 1.5rem;
 	color : white;
@@ -1057,15 +1057,19 @@ article p:before {
 
 }
 
-@media screen and (max-width : 500px){
-
-[works] h1 {
-	line-height : 1.25;
-}
+@media screen and (max-width : 600px){
 
 [works] p, [works] .lg {
 	padding-left : 1.5rem;
 	padding-right : 1.5rem;
+}
+
+}
+
+@media screen and (max-width : 500px){
+
+[works] h1 {
+	line-height : 1.25;
 }
 
 [listeninto] h1:before, [dads] h1:before {
