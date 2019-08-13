@@ -58,7 +58,7 @@ h1, h2, h3, h4, p {
 }
 #updates p {
 	margin-bottom : 0;
-	font-size : 15px;
+	/*font-size : 15px;*/
 }
 #updates a {
 	color : #4a3e42;
@@ -98,7 +98,7 @@ a:hover {
 	color : #4a3e42;
 	display : block;
 	padding : 1.5rem;
-	font-size : 15px;
+	/*font-size : 15px;*/
 	text-align : center;
 }
 /*.back:hover {
@@ -227,9 +227,10 @@ work
 	overflow : hidden;
 }
 [works] p {
-	padding : 0 1.5rem;
+	/*padding : 0 1.5rem;*/
 	/*font-size : 1.1rem;*/
-	max-width : 32.5rem;
+	/*max-width : 32.5rem;*/
+	max-width : 500px;
 	margin : 3rem auto 0;
 	text-align : left;
 	color : rgba(255,255,255,0.75);
@@ -637,15 +638,15 @@ article:nth-of-type(n+2) {
 }
 [white] p, [dv] p {
 	color : #666;
-	font-size : 15px;
+	/*font-size : 15px;*/
 }
 [dv] p {
 	color: inherit;
 	/*opacity: .75;*/
 }
-[white] p.lg, [dv] p.lg {
+/*[white] p.lg, [dv] p.lg {
 	padding-left : 1.25rem;
-}
+}*/
 [white] .lg em {
 	display : block;
 	margin-bottom : 1rem;
@@ -724,9 +725,9 @@ article:nth-of-type(n+2) {
 	/*[white] img {
 		padding : 30px 10px 0;
 	}*/
-	[white] p.lg {
+	/*[white] p.lg {
 		padding-left : 1.5rem;
-	}
+	}*/
 }
 
 @media screen and ( max-width : 750px ) {
@@ -985,8 +986,8 @@ article p:before {
 	margin-top : 1.5rem;
 }
 [works] .lg {
-	max-width : 474px;
-	padding : 0 0 .5rem 1.5rem;
+	/*max-width : 474px;*/
+	padding : 0 1rem .5rem;
 	/*border-bottom : 2px solid rgba(0, 0, 0, 0.15);*/
 	font-size : 1.5rem;
 	color : white;
@@ -1050,9 +1051,9 @@ article p:before {
 	margin : 1rem;
 }
 
-[works] .lg {
+/*[works] .lg {
 	padding-left : 1.25rem;
-}
+}*/
 
 }
 
@@ -1060,6 +1061,11 @@ article p:before {
 
 [works] h1 {
 	line-height : 1.25;
+}
+
+[works] p, [works] .lg {
+	padding-left : 1.5rem;
+	padding-right : 1.5rem;
 }
 
 [listeninto] h1:before, [dads] h1:before {
