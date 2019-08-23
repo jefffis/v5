@@ -257,6 +257,7 @@ work
 }
 [works] .mantra {
 	margin : 2rem auto;
+	padding-left: 1rem;
 	border-left : 5px solid rgba(255,255,255,0.25);
 	/*color : white;*/
 	font-style : italic;
@@ -1067,6 +1068,16 @@ article p:before {
 }
 
 @media screen and (max-width : 500px){
+
+nav a {
+	display: block;
+	float: left;
+	margin: 0 !important;
+	padding-right: 1rem;
+}
+nav a:last-child {
+	padding-right: 0;
+}
 
 [works] h1 {
 	line-height : 1.25;
