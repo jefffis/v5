@@ -5,11 +5,11 @@
   "private": true,
   "devDependencies": {
     "fontfaceobserver": "^2.0.1",
-    "grunt": "^1.0.3",
+    "grunt": "^1.4.1",
     "grunt-contrib-htmlmin": "^2.0.0",
     "grunt-contrib-sass": "~0.7.3",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-processhtml": "^0.4.2",
+    "grunt-processhtml": "^0.3.2",
     "grunt-yui-compressor": "~0.3.3"
   }
 }
