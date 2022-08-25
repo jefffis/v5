@@ -60,22 +60,27 @@
 }
 [myperfectjob] img {
   border-radius: 0;
-  border: 0;
-  border-bottom: 1px solid #d3deeb;
-  border-top: 1px solid #d3deeb;
+  border: 1px solid #d3deeb;
   box-shadow: 0 4px 10px rgb(190 198 207 / 24%);
-  max-width: 100%;
+  max-width: 1000px;
 }
-@media screen and (min-width: 1440px) {
+/*@media screen and (min-width: 1440px) {
   [myperfectjob] img {
     border: 1px solid #d3deeb;
-    border-radius: 4px;
-    max-width: 1440px;
   }
-}
+}*/
 [myperfectjob] small {
   margin: .5rem 0 2rem;
 }
 [myperfectjob] a {
   background-color: #01DB17;
+}
+
+[myperfectjob] img, [productboard] img, [simplepractice-light] img {
+  border-radius: 4px;
+  width: calc(100% - 48px);
+}
+
+[works] small {
+  font-style: italic;
 }
