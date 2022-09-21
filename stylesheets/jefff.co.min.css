@@ -58,12 +58,6 @@
 [myperfectjob] p, [myperfectjob] strong {
   color: #010e22;
 }
-[myperfectjob] img {
-  border-radius: 0;
-  border: 1px solid #d3deeb;
-  box-shadow: 0 4px 10px rgb(190 198 207 / 24%);
-  max-width: 1000px;
-}
 /*@media screen and (min-width: 1440px) {
   [myperfectjob] img {
     border: 1px solid #d3deeb;
@@ -78,7 +72,15 @@
 
 [myperfectjob] img, [productboard] img, [simplepractice-light] img {
   border-radius: 4px;
+  max-width: 1440px;
   width: calc(100% - 48px);
+}
+
+[myperfectjob] img {
+  border-radius: 0;
+  border: 1px solid #d3deeb;
+  box-shadow: 0 4px 10px rgb(190 198 207 / 24%);
+  max-width: 1000px;
 }
 
 [works] small {
