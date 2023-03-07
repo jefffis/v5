@@ -86,3 +86,16 @@
 [works] small {
   font-style: italic;
 }
+
+@media print {
+  html, body {
+    font : normal 17px/1.5 -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color : #111;
+  }
+  header {
+    padding: 1.5rem;
+  }
+  [hide-for-resume] {
+    display: none !important;
+  }
+}

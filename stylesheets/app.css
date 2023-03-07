@@ -1162,3 +1162,9 @@ article h2, [resume] h2 {
 	padding-bottom : 5rem;
 	text-align : center;
 }
+
+@media print {
+	.hide-for-resume {
+		display: none !important;
+	}
+}
