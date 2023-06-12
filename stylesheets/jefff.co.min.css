@@ -10,6 +10,10 @@
   opacity: 0.64;
 }
 
+[white] a {
+  min-width: 0;
+}
+
 [betalist] a {
   background-color: #F4610B;
 }
