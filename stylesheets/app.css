@@ -1184,23 +1184,49 @@ article p:before {
     border: 1px solid #d3deeb;
   }
 }*/
-[myperfectjob] small, [bandloveclub] small {
+[myperfectjob] small, [bandloveclub] small, [thriveworks] small {
     margin: 0.5rem 0 2rem;
 }
 [myperfectjob] a {
     background-color: #01db17;
 }
 
+
+
+
+[thriveworks] {
+    background-color: #F1EADD;
+    color: #212529;
+}
+[thriveworks] p,
+[thriveworks] strong {
+    color: #212529;
+}
+/*@media screen and (min-width: 1440px) {
+  [myperfectjob] img {
+    border: 1px solid #d3deeb;
+  }
+}*/
+[thriveworks] a {
+    background-color: #14467C;
+}
+
+
+
+
+
 [myperfectjob] img,
 [productboard] img,
 [simplepractice-light] img,
-[bandloveclub] img {
+[bandloveclub] img,
+[thriveworks] img {
     border-radius: 13px;
     max-width: 1440px;
     width: calc(100% - 48px);
 }
 
-[myperfectjob] img {
+[myperfectjob] img,
+[thriveworks] img {
     /*  border-radius: 0;*/
     border: 1px solid #d3deeb;
     box-shadow: 0 4px 10px rgb(190 198 207 / 24%);
